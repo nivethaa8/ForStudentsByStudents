@@ -16,11 +16,11 @@ window.kontext = function( container ) {
 	if( capable ) {
 		container.classList.add( 'capable' );
 	}
-
+//Nivethaa
 	// Create dimmer elements to fade out preceding slides
-	layers.forEach( function( el, i ) {
-		if( !el.querySelector( '.dimmer' ) ) el.innerHTML += '<div class="dimmer"></div>';
-	} );
+	// layers.forEach( function( el, i ) {
+	// 	if( !el.querySelector( '.dimmer' ) ) el.innerHTML += '<div class="dimmer"></div>';
+	// } );
 
 	/**
 	 * Transitions to and shows the target layer.
@@ -157,6 +157,10 @@ kontext.Signal.prototype.dispatch = function() {
 	} );
 }
 
+  
+
+  
+  
 
 // Create a new instance of kontext
 var k = kontext( document.querySelector( '.kontext' ) );
