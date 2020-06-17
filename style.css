@@ -206,7 +206,7 @@ body {
 }
 
 .layer.one {
-	background-image: url('/Users/nivethaanesarajah/Desktop/kontext/dist/turned-on-pendant-lamp-132340.jpg');
+	background-image: url('turned-on-pendant-lamp-132340.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -255,7 +255,7 @@ body {
 }
 
 .layer.two {
-	background-image: url('/Users/nivethaanesarajah/Desktop/kontext/dist/HS.png');
+	background-image: url('HS.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -295,7 +295,7 @@ body {
 /* End of Button */
 
 .layer.three {
-	background-image: url('/Users/nivethaanesarajah/Desktop/kontext/dist/College.png');
+	background-image: url('College.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
