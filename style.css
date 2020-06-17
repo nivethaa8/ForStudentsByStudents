@@ -274,21 +274,20 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	background-color: #5a75b1fd;
+	background-color: #7cb4befd;
 	color: black;
 	font-size: 20px;
 	font-weight: 200;
 	padding: 14px 40px;
 	border: black;
 	cursor: pointer;
-	border-radius: 15px;
+	border-radius: 4px;
 	text-align: center;
-	border: 3px solid #140101; 
+	border: 2px solid #140101; 
   }
   
-  .wrapper .buton:hover {
-	background-color: black;
-	color: white;
+  .wrapper .button:hover {
+	background-color: rgb(233, 232, 202);
   }
 
 
