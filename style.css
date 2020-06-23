@@ -210,6 +210,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	background-blend-mode: exclusion;
+
 }
 
 .heading {
@@ -223,7 +225,6 @@ body {
 	font-weight: 900;
 	white-space: nowrap;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-
 }
 
 .title {
@@ -257,15 +258,14 @@ body {
 
 .textbox {
 
-	position: absolute;
+	position: relative;
 	top: 80%;
 	left: 50%;
 	height: 15%;
 	width: 25%;
-	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: rgb(209, 207, 203);
+	background-color:  rgb(165, 165, 199);
 	box-shadow: 1px 1px 1px 1px black;
 	margin: 20px;
 	transform: translate(-60%, -60%);
@@ -288,20 +288,18 @@ body {
 	/* font-style: italic; */
 }
 
-
 .text4 {
 	position: absolute;
-	top: 88%;
+	top: 90%;
 	/*left: 50%; */
 	/* transform: translate(-50%, -50%); */
-	font-size: 20px;
-	color: white;
+	font-size: 25px;
+	color: black;
 	font-weight: 900;
 	white-space: nowrap;
-	font-family: serif;
+	font-style: italic;
 	/* text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white; */
 } 
-
 
 .layer.two {
 	background-image: url('HS.png');
@@ -347,14 +345,16 @@ body {
 }
 .wrapper .button {
 	position: absolute;
-	top: 75%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	background-color: rgb(233, 232, 202);
 	
 	color: black;
-	font-size: 20px;
+	height: 80px;
+	font-size: 25px;
+	
 	font-style: bold;
 	font-weight: 900;
 	padding: 14px 40px;
