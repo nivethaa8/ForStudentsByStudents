@@ -1,0 +1,148 @@
+.HS{
+    padding-top: 20px;
+    background: #7a7a7a;
+    padding-bottom: 30px;
+    border-style: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.title{
+    margin-top: 100px;
+   text-align: left;
+    font-family: Helvetica, sans-serif;
+    color: darkgrey;
+}
+
+
+/*Text*/
+
+h1{
+    color: darkgrey;
+    margin-left: 10%;
+        font-family: Helvetica, sans-serif;
+}
+
+p{
+ display: block;
+    font-family: Helvetica, sans-serif;
+    margin-right: 20%;
+    margin-left: 10%;
+    line-height: 1.6;
+}
+
+.quote{
+    font-family: Helvetica, sans-serif;
+    color:azure;
+    width:60%;
+    margin:auto;
+background-color: burlywood;
+}
+
+/*Button*/
+
+.relatedbutton:hover {
+  background-color: #595959; 
+  color:darksalmon;
+}
+
+.button{
+  border: 5px;
+    background-color: burlywood;
+  color:cornsilk;
+    padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 4px;
+  cursor: pointer;
+    float:inherit;
+    justify-content: center;
+    transition-duration: 0.4s;
+    align-items: center;
+    overflow: auto;
+}
+
+.button:hover {
+  background-color: #595959; 
+  color: white;
+}
+
+img{
+    float:right;
+}
+
+/*.searchbar{
+   position: absolute;
+ transform: translate(-50%, -50%);
+ background: #2f3640;
+ height: 40px;
+ border-radius: 90px;
+ padding: 10px;
+    margin-left:1300px;
+}
+
+
+.searchbutton{
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ display:inline;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: white;
+ cursor: pointer;
+}
+
+.search{
+    border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}*/
+
+
+/*Related*/
+
+h3{
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color:dimgrey;
+    text-align: center;
+    border-bottom-style:double;
+    border-top-style: double;
+    border-color: darkgray;
+    border-width: 10px 10px;
+    width: 40%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.relatedbutton{
+    border: 10px;
+    background-color:chocolate;
+  color:floralwhite;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+  
