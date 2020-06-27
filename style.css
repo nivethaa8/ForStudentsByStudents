@@ -206,11 +206,11 @@ body {
 }
 
 .layer.one {
-	background-image: url('HomePage.png');
+	
+	background-image: url('turned-on-pendant-lamp-132340.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	background-blend-mode: exclusion;
 
 }
 
@@ -230,7 +230,7 @@ body {
 .title {
 	
 	position: absolute;
-	top: 30%;
+	top: 19%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 65px;
@@ -250,22 +250,22 @@ body {
 	color: black;
 	font-weight: 600;
 	white-space: nowrap;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	text-shadow: -1px 0 white, 0 0.4px white, 0.4px 0 white, 0 -0.4px white;
 	font-style: bold;
 
 }
-
 
 .textbox {
 
 	position: relative;
 	top: 80%;
 	left: 50%;
-	height: 15%;
+	height: 9%;
 	width: 25%;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color:  rgb(165, 165, 199);
+	padding-top: 10px;
+	background-color:  rgb(124, 124, 148);
 	box-shadow: 1px 1px 1px 1px black;
 	margin: 20px;
 	transform: translate(-60%, -60%);
@@ -273,12 +273,11 @@ body {
 
   }
 
-
  .text3 {
 
 	/* position: absolute; */
-	/* top: 78%;
-	left: 50%;
+	/* top: 92%; */
+	/*left: 50%;
 	transform: translate(-50%, -50%); */
 	font-size: 25px;
 	color: black;
@@ -297,9 +296,27 @@ body {
 	color: black;
 	font-weight: 900;
 	white-space: nowrap;
-	font-style: italic;
+
 	/* text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white; */
 } 
+
+.corner_text {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-size: 17px;
+	text-align: right;
+	bottom: 3%;
+	text-decoration: none
+}
+
+a:link {
+	text-decoration: none;
+  }
+
+a:hover {
+	text-decoration: underline;
+  }
 
 .layer.two {
 	background-image: url('HS.png');
@@ -321,7 +338,7 @@ body {
 	left: 90%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	background-color: rgb(215, 120, 116);
+	background-color: rgb(182, 129, 127);
 	
 	color: black;
 	font-size: 20px;
