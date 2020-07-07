@@ -14,6 +14,10 @@ h3{
     font-family: Helvetica, sans-serif;
     color:dimgrey;
     text-align: center;
+     border-bottom: double;
+    border-top: double;
+    border-color: darkgray;
+    border-width: 10px;
 }
 
 .relatedtopic{
@@ -40,12 +44,14 @@ h3{
 h1{
     color: darkgrey;
         font-family: Helvetica, sans-serif;
+    margin-left: 10%;
 }
 
 p{
  display: block;
     font-family: Helvetica, sans-serif;
   margin-right: 40%;
+    margin-left: 10%;
     line-height: 1.6;
 }
 
@@ -66,15 +72,8 @@ background-color: burlywood;
     background-color:chocolate;
   color:floralwhite;
   text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 5px 4px;
-  cursor: pointer;
-    float:inherit;
-    justify-content: center;
-    transition-duration: 0.4s;
-    align-items: center;
-    justify-content: center;
+      font-size: 22px;
+      margin: 5px 4px;
 }
 
 .relatedbutton:hover {
@@ -82,6 +81,12 @@ background-color: burlywood;
   color:darksalmon;
 }
 
+.related{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
 
 
 .button{
