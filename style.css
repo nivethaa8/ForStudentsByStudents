@@ -206,53 +206,117 @@ body {
 }
 
 .layer.one {
+	
 	background-image: url('turned-on-pendant-lamp-132340.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+
+}
+
+.heading {
+
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	color: black;
+	font-weight: 900;
+	white-space: nowrap;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .title {
 	
 	position: absolute;
-	top: 20%;
+	top: 19%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 65px;
-	color: white;
+	color: black;
 	font-weight: 600;
 	white-space: nowrap;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .text2 {
 
 	position: absolute;
-	top: 70%;
+	top: 68%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 35px;
-	color: white;
+	color: black;
 	font-weight: 600;
 	white-space: nowrap;
-	text-shadow: -2px 0 black, 1 2px black, 2px 1 black, 1 -2px black;
+	text-shadow: -1px 0 white, 0 0.4px white, 0.4px 0 white, 0 -0.4px white;
 	font-style: bold;
 
 }
 
-.text3 {
+.textbox {
 
-	position: absolute;
+	position: relative;
 	top: 80%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	height: 9%;
+	width: 25%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-color:  rgb(124, 124, 148);
+	box-shadow: 1px 1px 1px 1px black;
+	margin: 20px;
+	transform: translate(-60%, -60%);
+	-ms-transform: translate(-60%, -60%);
+
+  }
+
+ .text3 {
+
+	/* position: absolute; */
+	/* top: 92%; */
+	/*left: 50%;
+	transform: translate(-50%, -50%); */
 	font-size: 25px;
-	color: white;
-	font-weight: 400;
+	color: black;
+	font-weight: 800;
 	white-space: nowrap;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	font-style: italic;
+
+	/* font-style: italic; */
 }
+
+.text4 {
+	position: absolute;
+	top: 90%;
+	/*left: 50%; */
+	/* transform: translate(-50%, -50%); */
+	font-size: 25px;
+	color: black;
+	font-weight: 900;
+	white-space: nowrap;
+
+	/* text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white; */
+} 
+
+.corner_text {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-size: 17px;
+	text-align: right;
+	bottom: 3%;
+	text-decoration: none
+}
+
+a:link {
+	text-decoration: none;
+  }
+
+a:hover {
+	text-decoration: underline;
+  }
 
 .layer.two {
 	background-image: url('HS.png');
@@ -262,22 +326,54 @@ body {
 	width: 100%;
 	background-position: center center;
   }
+/* About Us Button */
 
-/* Button */
+.about {
+    text-align: center;
+}
+.about .aboutUsButton {
 
+	position: absolute;
+	top: 8%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: rgb(182, 129, 127);
+	
+	color: black;
+	font-size: 20px;
+	font-style: bold;
+	font-weight: 900;
+	padding: 14px 40px;
+	border: black;
+	cursor: pointer;
+	border-radius: 4px;
+	text-align: center;
+	border: 2px solid #140101; 
+  }
+  
+  .about .aboutUsButton:hover {
+	background-color: #7cb4befd;
+  }
+
+/* Buttons on both the pages */
 .wrapper {
     text-align: center;
 }
 .wrapper .button {
 	position: absolute;
-	top: 75%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	background-color: #7cb4befd;
+	background-color: rgb(233, 232, 202);
+	
 	color: black;
-	font-size: 20px;
-	font-weight: 200;
+	height: 80px;
+	font-size: 25px;
+	
+	font-style: bold;
+	font-weight: 900;
 	padding: 14px 40px;
 	border: black;
 	cursor: pointer;
@@ -287,9 +383,8 @@ body {
   }
   
   .wrapper .button:hover {
-	background-color: rgb(233, 232, 202);
+	background-color: #7cb4befd;
   }
-
 
 
 /* End of Button */
@@ -305,11 +400,13 @@ body {
 
 .bullets {
 	position: absolute;
-	width: 100%;
+	width: 96%;
 	bottom: 20px;
 	padding: 0;
 	margin: 0;
 	text-align: center;
+
+
 }
 
 	.bullets li {
