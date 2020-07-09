@@ -1,26 +1,43 @@
+body{
+    background-color: #eeecdf;
+}
+
+
 .jumbotron {
     margin-bottom: 0;
     background-color: light orange;
-    background-size: cover;
+    opacity: 0.8;
+    background-size: contain;
     height: 100%;
-    background-repeat: no-repeat;
-	background-position: center center;
+    width: 100%;
+    background-position: center center;
+    background-image: url("/Users/nivethaanesarajah/Documents/GitHub/UniversityHelpWebpage/jumbotron_about_is.jpg");
+    margin-top: 100%;
+}
 
-  }
-
-.text {
-    font-size: 18px;
+p {
+    font-size: medium;
     font-family: Arial, Helvetica, sans-serif
 
 }
 
+.container-text-center {
+
+    height: 20%
+
+}
+
+.container-text-justify {
+    width: 50%;
+    height: auto;
+}
 
 .img-fluid{
 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 55%;
     height:auto;
 } 
 
@@ -42,4 +59,8 @@
 .text-center{
     color:blue;
     border-color: white;
+}
+
+.container-text-center {
+
 }
