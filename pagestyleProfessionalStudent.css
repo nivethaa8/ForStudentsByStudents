@@ -155,14 +155,13 @@ form:hover .fa{
 .relatedbutton{
     background-color:#a35d11;
   color:#ffccb1;
+   padding: 10px;
   text-decoration: none;
-  display: flex;
+  display: inline-block;
   font-size: 20px;
-  margin: 5px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-  padding-right: 10px;
+  margin: 5px 4px;
   cursor: pointer;
+    float:inherit;
     justify-content: center;
     transition-duration: 0.4s;
     align-items: center;
@@ -172,7 +171,7 @@ form:hover .fa{
 
 .relatedbutton:hover {
     text-align: center;
-  background-color:#ffccb1;
+    background-color:#ffccb1;
   color:#a35d11;
 }
 
@@ -181,11 +180,11 @@ form:hover .fa{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row; 
+    text-align: center;
 }
 
 
 .button{
-  border: 5px;
     background-color: #a35d11;
   color:#ffccb1;
     text-align: center;
