@@ -153,13 +153,21 @@ form:hover .fa{
 }
 
 .relatedbutton{
-    border-style: dotted;
-    border: 5px;
     background-color:#A9653C;
   color:#DFB79F;
   text-decoration: none;
-      font-size: 22px;
-      margin: 5px 4px;
+  display: flex;
+  font-size: 20px;
+  margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+    justify-content: center;
+    transition-duration: 0.4s;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 
 .relatedbutton:hover {
@@ -172,6 +180,7 @@ form:hover .fa{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row; 
+    text-align: center;
 }
 
 
