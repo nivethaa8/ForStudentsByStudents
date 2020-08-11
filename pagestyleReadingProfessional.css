@@ -153,16 +153,25 @@ form:hover .fa{
 }
 
 .relatedbutton{
-    border-style: dotted;
-    border: 5px;
     background-color:#95D67F;
   color:#3DAB62;
   text-decoration: none;
-      font-size: 22px;
-      margin: 5px 4px;
+  display: flex;
+  font-size: 20px;
+  margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+    justify-content: center;
+    transition-duration: 0.4s;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 
 .relatedbutton:hover {
+    text-align: center;
   background-color:#3DAB62;
   color:#95D67F;
 }
@@ -172,14 +181,14 @@ form:hover .fa{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row; 
+    text-align: center;
 }
 
 
 .button{
-  border: 5px;
     background-color: #95D67F;
   color:#3DAB62;
-    padding: 10px;
+    text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
@@ -187,9 +196,7 @@ form:hover .fa{
   cursor: pointer;
     float:inherit;
     justify-content: center;
-    transition-duration: 0.4s;
     align-items: center;
-    justify-content: center;
 }
 
 .button:hover {
