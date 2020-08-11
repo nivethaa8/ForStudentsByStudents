@@ -1,13 +1,15 @@
 .HS{
     padding-top: 20px;
-
-    background: #B5E3E8;
+    background: #89D8BF;
     padding-bottom: 30px;
     font-family: Helvetica, sans-serif;
     font-size: 30px;
-    color: #4373C0;
+    color: #44BB43;
     text-align: center;
-  
+
+}
+
+
 .title{
     margin-top: 100px;
    text-align: left;
@@ -22,8 +24,7 @@
 /*Text*/
 
 h1{
-
-    color: #4373C0;
+    color: #44BB43;
     margin-left: 5%;
         font-family: Helvetica, sans-serif;
 }
@@ -31,7 +32,6 @@ h1{
 p{
  display: block;
     font-family: Helvetica, sans-serif;
-
     margin-right: 30%;
     margin-left: 5%;
     line-height: 1.6;
@@ -40,28 +40,24 @@ p{
 
 .quote{
     font-family: Helvetica, sans-serif;
-
-    color:#3A64AA;
+    color:#44BB43;
     width:60%;
     margin:auto;
-background-color: #86CFD7;
+background-color: #89D8BF;
     margin-bottom: 5%;
 }
-.boxed{
-    border-style: groove;
-    border-width: 10px;
-}
+
 
 /*Related*/
 
 h3{
     font-size: 25px;
     font-family: Helvetica, sans-serif;
-    color:#7296D2;
+    color:#8DD88C;
     text-align: center;
     border-bottom-style:double;
     border-top-style: double;
-    border-color: #57BBC6;
+    border-color: #63CAA9;
     border-width: 10px 10px;
     width: 40%;
     margin:auto;
@@ -73,6 +69,12 @@ h3{
 }
 
 .relatedbutton{
+    border: 10px;
+    background-color:#6876CA;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
   cursor: pointer;
     transition-duration: 0.4s;
 }
@@ -142,14 +144,9 @@ form:hover input{
 form:hover .fa{
     background: brown;
     color:burlywood;
-    color:azure;
-    width:60%;
-    margin:auto;
-background-color: burlywood;
 }
 
 /*Button*/
-
 
 .wrapper {
     text-align: center;
@@ -158,16 +155,16 @@ background-color: burlywood;
 .relatedbutton{
     border-style: dotted;
     border: 5px;
-    background-color:#4373C0;
-  color:#B5E3E8;
+    background-color:#44BB43;
+  color:#89D8BF;
   text-decoration: none;
       font-size: 22px;
       margin: 5px 4px;
 }
 
 .relatedbutton:hover {
-  background-color:#B5E3E8;
-  color:#4373C0;
+  background-color:#89D8BF;
+  color:#44BB43;
 }
 
 .related{
@@ -180,9 +177,8 @@ background-color: burlywood;
 
 .button{
   border: 5px;
-    background-color: #4373C0;
-  color:#B5E3E8;
-
+    background-color: #44BB43;
+  color:#89D8BF;
     padding: 10px;
   text-decoration: none;
   display: inline-block;
@@ -197,20 +193,15 @@ background-color: burlywood;
 }
 
 .button:hover {
-  background-color: #B5E3E8; 
-  color: #4373C0;
-=======
-    overflow: auto;
-}
-
-.button:hover {
-  background-color: #595959; 
-  color: white;
+  background-color: #89D8BF; 
+  color: #44BB43;
 }
 
 img{
     float:right;
 }
+
+
 
 /*.searchbar{
    position: absolute;
@@ -220,6 +211,7 @@ img{
  border-radius: 90px;
  padding: 10px;
     margin-left:1300px;
+    
 }
 
 
@@ -248,41 +240,5 @@ img{
  line-height: 40px;
  width: 0px;
  font-weight: bold;
-
-
-}*/
-
-
-/*Related*/
-
-h3{
-    font-size: 25px;
-    font-family: Helvetica, sans-serif;
-    color:dimgrey;
-    text-align: center;
-    border-bottom-style:double;
-    border-top-style: double;
-    border-color: darkgray;
-    border-width: 10px 10px;
-    width: 40%;
-    margin:auto;
-    margin-bottom: 20px;
 }
 
-.wrapper {
-    text-align: center;
-}
-
-.relatedbutton{
-    border: 10px;
-    background-color:chocolate;
-  color:floralwhite;
-  padding-left: 10px;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 20px;
-  cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-  
