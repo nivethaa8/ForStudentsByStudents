@@ -188,7 +188,7 @@ form:hover .fa{
   border: 5px;
     background-color: #5953C7;
   color:#4BAEBF;
-    text-align: center;
+    padding: 10px;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
@@ -196,7 +196,9 @@ form:hover .fa{
   cursor: pointer;
     float:inherit;
     justify-content: center;
+    transition-duration: 0.4s;
     align-items: center;
+    justify-content: center;
 }
 
 .button:hover {
