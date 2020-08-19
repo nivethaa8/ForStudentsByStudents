@@ -1,124 +1,337 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>Becoming Unstuck</title>
+    <title>Becoming Unstuck</title>
     <link href="pagestyleUnstuck.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
     <article class="HS">
         <h2>Becoming Unstuck</h2>
     </article>
-    <div class="wrapper">
-        <a href="pageCourse.html">
-    <button class="button">
-        
-    Planning
-        </button></a>
-        <a href="pageMentorship.html">
-        <button class="button">
-    Careers
-        </button></a>
-        <a href="pageLifetimeLearning.html">
-     <button class="button">
-    How to Learn
-        </button></a>
-        <a href="pageMentalHealth.html">
-     <button class="button">
-    Mental Health
-        </button></a>
-        <a href="pageLifetimeLearning.html">
-     <button class="button">
-    How to Learn
-        </button></a>
-        <a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button></a>
-                    </div>
+    </article>
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
 
-    <div class="Title"></div>
-        <h1>Getting Unstuck</h1>
-           
-        <div img="header"> <img src="https://images.unsplash.com/photo-1566669437687-7040a6926753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #CC628F; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-           <p> It is not uncommon in problem solving to get stuck, and sometimes you get stuck many times. <b>Problem solving is not a linear process (not usually).</b> You go down a path using knowledge, thinking about what needs to be done, how it can/should be done, evaluate it (or someone else evaluates it for you) and you have to retreat or fix one or more issues before you can proceed. You can iterate and go back forth from almost any point in the journey to another point. The more challenging and more ‘unknowns’, the more back and forth. Here are some techniques for dealing with problems you are stumped by.  
-        </p>
-    <p>In some cases, there is no going forward and it is time to retreat or take a step back (you need to learn when to do this). You might be working on the wrong problem. You might have missed something, did not pick up appropriate assumptions or requirements. The retreating will vary - in some cases, you have to retreat a little and in some, you might have to start again from scratch. Moving forward, you might have a bunch of things ‘to do’ before you actually move forward. You might also find that a bunch of new tasks or future problems to solve were created. This is problem solving.</p>
-    <h1>Things to consider when problem solving:</h1>
-    <ol><div img="header"> <img src="https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #C65162; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-    <p><il><b>Re-read the requirements, specifications, and understand what you are supposed to be solving or doing.</b> Have someone else read the same material. Compare notes. Often (surprisingly often), you might find that you are trying to do the wrong thing or solve the wrong problem or do it with the wrong expectations.
-</il></p>
-        <p><il>Consciously stand back and reflect on what the constraints are. It is possible that some constraints can be relaxed.
-</il></p>
-        <p><il>Think about what assumptions you are implicitly and explicitly using – are you part of the problem?</il></p>
-        <p><il>Stand back and identify the Zen aspect of the situations – all that makes it what it is and no more. Can you take something away and it is still what it needs to be? This simplification process can help isolate issues and what must be addressed.</il></p>
-        <p><il>If you have a ‘continuum’ or a large problem, do a binary-search on the space – divide the problem in two if you can – is it in the left or right. Divide again. This can work for concepts as well as things like debugging code. Sometimes the problem is just too big to comprehend and if you can break it down into encapsulated and isolated ‘modular’ bits, it is easier to think about and solve.
-</il></p>
-        
-        <p><il>If you are trying to change or do a bunch of stuff at the same time – slow down. Do one change at a time, see the effect. Understand the cause/effect.
-</il></p>
-        <p><il>Try to do a sketch of what you are dealing with – can be a process model, or a conceptual representation of the components – try at different levels of granularity – see if any patterns exist.
-</il></p>
-        <p><il>Just talk it through with someone – take it from the top and try to explain the problem or what is happening to someone. Often this can unlock an idea.</il></p>
-        <il><p>If you are stumped by a specific aspect, <b>write down everything you know about it.</b>
-</p></il>
-        <p><il>If you can, do what is called anthropomorphism projection – try to be what you are designing or debugging and use your imagination to be the electrons, or the user. Think it through from turning on the power, starting it up. Become one with the problem. Sometimes this helps (really).
-</il></p>
-        <p><il>Take a break, a nice walk – move away from the problem and think about something else. This can also (we do not know how) help you ‘see’ the solution. </il></p>
-        
-      </ol>  <h1>Questions to Ask Yourself</h1>
-<div img="header"> <img src="https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #C65162; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-     <ul>   
-        <il><p>
-            What is it similar to? In structure, form, construction, process, method, purpose? What happens if you think about the similar object/problem?
-        </p></il>
-        
-        <il><p>What have you seen or done that is similar? Talk it through – what did you do, what did you think of, why did you do something, what happened when you did it?
-</p></il>
-        <il><p>Sometimes look for repeating patterns or themes – what is the same. Sometimes look for how two bits are the same with respect to their differences. For example, you are looking at something involving students and a solution is evading you because people keep saying that ‘all students are different’. Usually there will be some things the same (that is the easy bit). Next, look at how they are different and the differences. Any patterns there?
-</p>
-            </il></ul>
-        <p>How long does this take? How much effort? If the problem to solve is in your wheelhouse as they say, it can take
-minutes to ‘see’ the situation and understand it. If you have not worked in the topic before, it can take many months
-to get a real handle on something that is complex. Do not rush this. <b>Understand what you are dealing with.</b> See
-Gause and Weinberg (1990) for more about problem solving, identifying the problem.</p>
-        <p>In doing this, you will usually get a better understanding of what the REAL problem is. Not the symptoms someone
-might be confused by. You will usually get a better understanding of what questions should be asked, and not
-necessarily what was asked. <b>Know the REAL problem.</b> Root cause analysis: ask WHY five times!</p>
-    </body>
-    <article class ="quote">
-    <h2> "If you can solve your problem, then what is the need of worrying? If you cannot solve it, then what is the use of worrying?"</h2>
-        </article>
-        <h3> Related to this topic:</h3>
-    <div class="related">
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageListening.html">
+                    How to Open your Ears
+                </a>
 
-        <a href = "pageProblemSolving.html">
-        <button class="relatedbutton">
-        Journeys of the Mind
-        </button> </a>
+                <a href="pageSkills.html">
+                    Learning to use your Brain
+                </a>
 
-        <a href = "pageMistakes.html">
-        <button class="relatedbutton">
-        Pick Yourself Up
-        </button> </a>
+                <a href="pageLifetimeLearning.html">
+                    Learning as you Breathe
+                </a>
+                <a href="pageReadingProfessional.html">
+                    Stop Being Illiterate
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep Are You Reading?
+                </a>
+            </div>
+        </div>
 
-        <a href = "pageSurvivalGuide.html">
-        <button class="relatedbutton">
-        Survival Guide for the Real Life
-        </button>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+
+                <a href="pageMistakes.html">
+                    Pick Yourself Up
+                </a>
+
+                
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+
+                <a href="pageSuccess.html">
+                    How Does Success Look Like
+                </a>
+
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Stop Procrastinatinga
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+                <a href="pageMeetings.html">
+                    Guide to Making Meetings Work
+                </a>
+                <a href="pageTopics">
+                    Project Topics
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageInterviews.html">
+                    Interviews
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How You Feel At Work
+                </a>
+                <a href="pageJobHunting.html">
+                    Job Hunting
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+                <a href="pageCovidCoop.html">
+                    Covid and Coop
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch at Work
+                </a>
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageresume.html">
+                    Resume
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
+            <button class="button">
+                Home
+            </button>
         </a>
 
     </div>
-<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
-            </ul>
-<form action="">
-  <input type="search">
-  <i class="fa fa-search"></i>
-</form>-->
-    
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
+    <div class="Title"></div>
+    <h1>Getting Unstuck</h1>
+
+    <div img="header"> <img src="https://images.unsplash.com/photo-1566669437687-7040a6926753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #CC628F; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>
+        It is not uncommon in problem solving to get stuck, and sometimes you get stuck many times. <b>Problem solving is not a linear process (not usually).</b> You go down a path using knowledge, thinking about what needs to be done, how it can/should be done, evaluate it (or someone else evaluates it for you) and you have to retreat or fix one or more issues before you can proceed. You can iterate and go back forth from almost any point in the journey to another point. The more challenging and more ‘unknowns’, the more back and forth. Here are some techniques for dealing with problems you are stumped by.
+    </p>
+    <p>In some cases, there is no going forward and it is time to retreat or take a step back (you need to learn when to do this). You might be working on the wrong problem. You might have missed something, did not pick up appropriate assumptions or requirements. The retreating will vary - in some cases, you have to retreat a little and in some, you might have to start again from scratch. Moving forward, you might have a bunch of things ‘to do’ before you actually move forward. You might also find that a bunch of new tasks or future problems to solve were created. This is problem solving.</p>
+    <h1>Things to consider when problem solving:</h1>
+    <ol>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #C65162; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+        <p>
+            <il>
+                <b>Re-read the requirements, specifications, and understand what you are supposed to be solving or doing.</b> Have someone else read the same material. Compare notes. Often (surprisingly often), you might find that you are trying to do the wrong thing or solve the wrong problem or do it with the wrong expectations.
+            </il>
+        </p>
+        <p>
+            <il>
+                Consciously stand back and reflect on what the constraints are. It is possible that some constraints can be relaxed.
+            </il>
+        </p>
+        <p><il>Think about what assumptions you are implicitly and explicitly using - are you part of the problem?</il></p>
+        <p><il>Stand back and identify the Zen aspect of the situations - all that makes it what it is and no more. Can you take something away and it is still what it needs to be? This simplification process can help isolate issues and what must be addressed.</il></p>
+        <p>
+            <il>
+                If you have a ‘continuum’ or a large problem, do a binary-search on the space - divide the problem in two if you can - is it in the left or right. Divide again. This can work for concepts as well as things like debugging code. Sometimes the problem is just too big to comprehend and if you can break it down into encapsulated and isolated ‘modular’ bits, it is easier to think about and solve.
+            </il>
+        </p>
+
+        <p>
+            <il>
+                If you are trying to change or do a bunch of stuff at the same time - slow down. Do one change at a time, see the effect. Understand the cause/effect.
+            </il>
+        </p>
+        <p>
+            <il>
+                Try to do a sketch of what you are dealing with - can be a process model, or a conceptual representation of the components - try at different levels of granularity - see if any patterns exist.
+            </il>
+        </p>
+        <p><il>Just talk it through with someone - take it from the top and try to explain the problem or what is happening to someone. Often this can unlock an idea.</il></p>
+        <il>
+            <p>
+                If you are stumped by a specific aspect, <b>write down everything you know about it.</b>
+            </p>
+        </il>
+        <p>
+            <il>
+                If you can, do what is called anthropomorphism projection - try to be what you are designing or debugging and use your imagination to be the electrons, or the user. Think it through from turning on the power, starting it up. Become one with the problem. Sometimes this helps (really).
+            </il>
+        </p>
+        <p><il>Take a break, a nice walk - move away from the problem and think about something else. This can also (we do not know how) help you ‘see’ the solution. </il></p>
+
+    </ol>
+    <h1>Questions to Ask Yourself</h1>
+    <div img="header"> <img src="https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #C65162; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <ul>
+        <il>
+            <p>
+                What is it similar to? In structure, form, construction, process, method, purpose? What happens if you think about the similar object/problem?
+            </p>
+        </il>
+
+        <il>
+            <p>
+                What have you seen or done that is similar? Talk it through - what did you do, what did you think of, why did you do something, what happened when you did it?
+            </p>
+        </il>
+        <il>
+            <p>
+                Sometimes look for repeating patterns or themes - what is the same. Sometimes look for how two bits are the same with respect to their differences. For example, you are looking at something involving students and a solution is evading you because people keep saying that ‘all students are different’. Usually there will be some things the same (that is the easy bit). Next, look at how they are different and the differences. Any patterns there?
+            </p>
+        </il>
+    </ul>
+    <p>
+        How long does this take? How much effort? If the problem to solve is in your wheelhouse as they say, it can take
+        minutes to ‘see’ the situation and understand it. If you have not worked in the topic before, it can take many months
+        to get a real handle on something that is complex. Do not rush this. <b>Understand what you are dealing with.</b> See
+        Gause and Weinberg (1990) for more about problem solving, identifying the problem.
+    </p>
+    <p>
+        In doing this, you will usually get a better understanding of what the REAL problem is. Not the symptoms someone
+        might be confused by. You will usually get a better understanding of what questions should be asked, and not
+        necessarily what was asked. <b>Know the REAL problem.</b> Root cause analysis: ask WHY five times!
+    </p>
+    </body>
+    <article class="quote">
+        <h2> "If you can solve your problem, then what is the need of worrying? If you cannot solve it, then what is the use of worrying?"</h2>
+    </article>
+    <h3> Related to this topic:</h3>
+    <div class="related">
+
+        <a href="pageProblemSolving.html">
+            <button class="relatedbutton">
+                Journeys of the Mind
+            </button>
+        </a>
+
+        <a href="pageMistakes.html">
+            <button class="relatedbutton">
+                Pick Yourself Up
+            </button>
+        </a>
+
+        <a href="pageSurvivalGuide.html">
+            <button class="relatedbutton">
+                Survival Guide for the Real Life
+            </button>
+        </a>
+
+    </div>
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
+                </ul>
+    <form action="">
+      <input type="search">
+      <i class="fa fa-search"></i>
+    </form>-->
+
 </html>

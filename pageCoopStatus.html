@@ -1,107 +1,287 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>How Do You Feel at Work</title>
+    <title>How Do You Feel at Work</title>
     <link href="pagestyleCoopStatus.css" rel="stylesheet" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
+
 </head>
 <body>
     <article class="HS">
-        <h2>How Do You Feel at Work</h2>
+        <h2>How you Feel at Work</h2>
     </article>
-    <div class="wrapper">
-        <a href="pageLifetimeLearning.html">
-    <button class="button">
-    How to Learn
-        </button></a>
-        <a href="pageProblemSolving.html">
-     <button class="button">
-    How to Problem-Solve
-        </button></a>
-        <a href="pageCourse.html">
-     <button class="button">
-    Planning
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageLifetimeLearning.html">
+                    Learning as you breathe
+                </a>
+                <a href="pageskills.html">
+                    Learning to use your Brain
+                </a>
+                <a href="pageReadingProfessional.html">
+                    Stop Being Illiterate
+                </a>
+                <a href="pageListening.html">
+                    How to open your ears
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep are you Reading
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+                <a href="pageMistakes">
+                    Pick Yourself Up
+                </a>
+                <a href="pageSurvivalGuide.html">
+                    Survival Guide for Real Life
+                </a>
+                <a href="pageUnstuck">
+                    Becoming Unstuck
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Not Procrastinate
+                </a>
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+                <a href="pageSuccess.html">
+                    How Does Success Look
+                </a>
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This Ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTopics.html">
+                    Project Topics
+                </a>
+                <a href="pageMeetings.html">
+                    Guide to Making Meetings Work
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageInterviews.html">
+                    Interviews
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+                <a href="pageCovidCoop.html">
+                    Covid and Coop
+                </a>
+                <a href="pageJobHunting.html">
+                    Job Hunting
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentalHealth.html">
+                    Mental Health
+                </a>
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
+            <button class="button">
+                Home
+        </a>
         </button>
-            </a>
-        <a href="pageMentalHealth.html">
-     <button class="button">
-    Mental Health
-        </button>
-            </a>
-        <a href="pageProfessionalStudent.html">
-     <button class="button">
-    Best Practices
-        </button>
-            </a>
-        <a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button>
-            </a>
-                    </div>
+
+    </div>
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
 
     <div class="Title"></div>
-        <h1>Status Updates</h1>
-           
-        <div img="header"> <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #7757C4; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-           <p> In almost every REAL situation you either have to, or you should, provide a regular status update to the ‘boss’ or to other team members. Even if you are not asked, it is wise to provide a weekly and monthly report to the boss.  
-        </p>
-    
-    <p>To be truthful, many individuals hate doing status reports, see little value in them, and blow them off. For them, it is a painful process and usually involves regular nagging to get them done, and when done they have little value. Done with quality, they do not take a great deal of time and they give you and the reader great value. There is no absolute ‘right’ style that works in every case or for every boss. Some bosses do not know what they want or what a good status report would look like.
-</p>
-    <p>A major part of a boss’s job is to create a situation in which you can do what is desired. While some bosses do not understand this or know how to do it, it is still a worthy objective or thought.
-</p>
-        <h1>Things To Consider</h1>
+    <h1>Status Updates</h1>
+
+    <div img="header"> <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #7757C4; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>
+        In almost every REAL situation you either have to, or you should, provide a regular status update to the ‘boss’ or to other team members. Even if you are not asked, it is wise to provide a weekly and monthly report to the boss.
+    </p>
+
+    <p>
+        To be truthful, many individuals hate doing status reports, see little value in them, and blow them off. For them, it is a painful process and usually involves regular nagging to get them done, and when done they have little value. Done with quality, they do not take a great deal of time and they give you and the reader great value. There is no absolute ‘right’ style that works in every case or for every boss. Some bosses do not know what they want or what a good status report would look like.
+    </p>
+    <p>
+        A major part of a boss’s job is to create a situation in which you can do what is desired. While some bosses do not understand this or know how to do it, it is still a worthy objective or thought.
+    </p>
+    <h1>Things To Consider</h1>
     <ul>
-        
-        <il><p>
-            If a boss does not know what you need to get the job done to the desired level, how do you expect them to give you what you need?
-        </p></il>
-        <div img="header"> <img src="https://images.unsplash.com/photo-1551836022-8b2858c9c69b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #3841AD; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-        <il><p>There is a saying: <b>never surprise your boss.</b> Give them heads up that something is not going right
-</p></il>
-        <il><p>This also means that your boss should not learn of anything risky or bad from another person – they should know it first from you.
-</p></il>    
+
+        <il>
+            <p>
+                If a boss does not know what you need to get the job done to the desired level, how do you expect them to give you what you need?
+            </p>
+        </il>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1551836022-8b2858c9c69b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #3841AD; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+        <il>
+            <p>
+                There is a saying: <b>never surprise your boss.</b> Give them heads up that something is not going right
+            </p>
+        </il>
+        <il>
+            <p>
+                This also means that your boss should not learn of anything risky or bad from another person - they should know it first from you.
+            </p>
+        </il>
         <il><p>Think about when to bring something up to your boss by asking yourself these questions: will my actions have consequences beyond my role? Will it impact someone else? Could it cause harm or risk?</p></il>
-        <il><p>In some situations, it is best and necessary to manage up – that means you effectively manage your boss and make it easy for them to help you</p></il>
-        <il><p>Good status reports provide a historical record of what, who, etc. – you did raise the concern, asked for help and did not get it. Excel and other project management tools are good for this tracking and keeping historical notes.</p></il>
+        <il><p>In some situations, it is best and necessary to manage up - that means you effectively manage your boss and make it easy for them to help you</p></il>
+        <il><p>Good status reports provide a historical record of what, who, etc. - you did raise the concern, asked for help and did not get it. Excel and other project management tools are good for this tracking and keeping historical notes.</p></il>
         <il><p>Writing a good report helps you reflect and think things through, often identifying and solving problems in advance</p></il>
-        </ul>
+    </ul>
     <h1>First Status Report</h1>
     <ul>
-        <div img="header"> <img src="https://images.unsplash.com/photo-1511203466129-824e631920d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #7757C4; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-    <il><p>You usually need to be a bit lengthy to lay it all out – what was expected, what was done, how it went, risks, surprises, recovery, and what next. After the first one,</p></il>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1511203466129-824e631920d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #7757C4; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+        <il><p>You usually need to be a bit lengthy to lay it all out - what was expected, what was done, how it went, risks, surprises, recovery, and what next. After the first one,</p></il>
         <ul>
-        <il><p>You can simply note exceptions – what was expected to be done in the time since the last report got done as expected unless I tell you otherwise.</p></il>
-        <il><p>Why things didn't go as expected, impact of the failure, what you did about it, what help you might need from management/others to fix things.
-</p></il>
+            <il><p>You can simply note exceptions - what was expected to be done in the time since the last report got done as expected unless I tell you otherwise.</p></il>
+            <il>
+                <p>
+                    Why things didn't go as expected, impact of the failure, what you did about it, what help you might need from management/others to fix things.
+                </p>
+            </il>
             <il><p>You identify any upcoming risks and how you will deal with them, or the help you need to deal with them.</p></il>
             <il><p>Perhaps summarize lessons learned and how to avoid the surprises next time.</p></il>
-            <il><p>If you do this weekly and then monthly, the reports are what is called ‘net change’ only – you do not repeat stuff that is filler and does not give value – the status report is strictly exceptions and a heads up about what is coming – does not take long to do.</p></il>
+            <il><p>If you do this weekly and then monthly, the reports are what is called ‘net change’ only - you do not repeat stuff that is filler and does not give value - the status report is strictly exceptions and a heads up about what is coming - does not take long to do.</p></il>
         </ul>
-    
-    
+
+
     </ul>
-    </body>
-    <article class ="quote">
+</body>
+<article class="quote">
     <h2> "Communicate unto the other person that which you would want him to communicate unto you if your positions were reversed."</h2>
-        </article>
-        <h3> Related to this topic:</h3>
-    <div class="related">
-      <a href="pageResume.html" class="relatedbutton">  Resumes</a>
-       <a href="pageInterviews.html"class="relatedbutton"> Interviews</a>
-       <a href="pageJobBehavior.html"class="relatedbutton"> How to not screw the pooch at Work</a>
-       <a href="pageAmbiguity.html"class="relatedbutton"> Crap, what just happened?</a>
-             <a href="pageMentorship.html"class="relatedbutton"> Following Guidance</a>
-       <a href="pageSummerVCoop.html"class="relatedbutton"> Summer Vs Coop</a>
-       <a href="pageCovidCoop.html"class="relatedbutton"> Covid and Coop</a>
-       <a href="pageJobHunting.html"class="relatedbutton"> Job Hunting</a>
-       <a href="pageSummerJobs.html"class="relatedbutton"> Summer Jobs</a>
-    </div>
+</article>
+<h3> Related to this topic:</h3>
+<div class="related">
+    <a href="pageResume.html" class="relatedbutton">  Resumes</a>
+    <a href="pageInterviews.html" class="relatedbutton"> Interviews</a>
+    <a href="pageJobBehavior.html" class="relatedbutton"> How to not screw the pooch at Work</a>
+    <a href="pageAmbiguity.html" class="relatedbutton"> Crap, what just happened?</a>
+    <a href="pageMentorship.html" class="relatedbutton"> Following Guidance</a>
+    <a href="pageSummerVCoop.html" class="relatedbutton"> Summer Vs Coop</a>
+    <a href="pageCovidCoop.html" class="relatedbutton"> Covid and Coop</a>
+    <a href="pageJobHunting.html" class="relatedbutton"> Job Hunting</a>
+    <a href="pageSummerJobs.html" class="relatedbutton"> Summer Jobs</a>
+</div>
 <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
             </ul>
@@ -109,5 +289,5 @@
   <input type="search">
   <i class="fa fa-search"></i>
 </form>-->
-    
+
 </html>

@@ -1,105 +1,303 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>Survival Guide for the Real Life</title>
+    <title>Survival Guide for the Real Life</title>
     <link href="pagestyleSurvivalGuide.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
+
     <article class="HS">
         <h2>Survival Guide for the Real Life</h2>
     </article>
-    <div class="wrapper">
-        <a href="pageCourse.html">
-    <button class="button">
-    Planning
-        </button></a>
-        <a href="pageLifetimeLearning.html">
-     <button class="button">
-How to Learn
-        </button></a>
-        <a href="pageMentalHealth.html">
-     <button class="button">
-    Mental Health
-        </button></a>
-        <a href="pageProfessionalStudent.html">
-     <button class="button">
-    Best Practices
-        </button></a>
-        <a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button></a>
-        <a href="pageMentorship.html">
-        <button class="button">
-   Careers
-        </button></a>
-                    </div>
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
 
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageListening.html">
+                    How to Open your Ears
+                </a>
+
+                <a href="pageSkills.html">
+                    Learning to use your Brain
+                </a>
+
+                <a href="pageLifetimeLearning.html">
+                    Learning as you Breathe
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep are you Reading
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+
+                <a href="pageMistakes.html">
+                    Pick Yourself Up
+                </a>
+                
+                <a href="pageUnstuck">
+                    Becoming Unstuck
+                </a>
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+
+                <a href="pageSuccess.html">
+                    How Does Success Look Like
+                </a>
+
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Stop Procrastinatinga
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTopics.html">
+                    Project Topics
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+                <a href="pageMeetings.html">
+                    Guide to Making Meetings Work
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageInterviews.html">
+                    Interviews
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How You Feel At Work
+                </a>
+                <a href="pageJobHunting.html">
+                    Job Hunting
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+                <a href="pageCovidCoop.html">
+                    Covid and Coop
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch at Work
+                </a>
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageresume.html">
+                    Resume
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
+            <button class="button">
+                Home
+            </button>
+        </a>
+
+    </div>
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
     <div class="Title"></div>
-        <h1>Real World Problem Solving</h1>
-           
-        <div img="header"> <img src="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1948&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #C9618A; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-           <p> Often in a long career, it is not uncommon to be part of an effort to introduce a significant innovation, or help with the supervision or management of one after a year or two. The following are thoughts to consider in either case:
-        </p>
-    <ul>
-    <p><il>1. <b>NEVER</b> forget the people. You need to remember them – especially if you want to have the people do things differently or use the innovation. You need to respect them and understand the present, the past – as well as where things are going. This is a whole topic to learn about with its own skills, transition methods, and processes.
+    <h1>Real World Problem Solving</h1>
 
-</il></p>
-    <p><il>2. <b>General Steps for Problem-solving: </b>
-</il></p>
+    <div img="header"> <img src="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1948&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #C9618A; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>
+        Often in a long career, it is not uncommon to be part of an effort to introduce a significant innovation, or help with the supervision or management of one after a year or two. The following are thoughts to consider in either case:
+    </p>
+    <ul>
+        <p>
+            <il>
+                1. <b>NEVER</b> forget the people. You need to remember them - especially if you want to have the people do things differently or use the innovation. You need to respect them and understand the present, the past - as well as where things are going. This is a whole topic to learn about with its own skills, transition methods, and processes.
+
+            </il>
+        </p>
+        <p>
+            <il>
+                2. <b>General Steps for Problem-solving: </b>
+            </il>
+        </p>
         <ul>
-        <il><p>
-            i) ‘why do it’, ‘what is the problem’</p></il>
+            <il>
+                <p>
+                    i) ‘why do it’, ‘what is the problem’
+                </p>
+            </il>
             <p><il>ii) ‘what needs to be done’</il></p>
             <p><il>iii) ‘figuring out how it needs to be done’</il></p>
-<p><il>iv) ‘actually doing it’</il></p>
-<p><il>v) ‘doing it repeatedly’, and </il></p>
-<p><il>vi) ‘reducing variance’</il></p>
-        <div img="header"> <img src="https://images.unsplash.com/photo-1586527155047-b4639ecd6127?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #C9618A; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+            <p><il>iv) ‘actually doing it’</il></p>
+            <p><il>v) ‘doing it repeatedly’, and </il></p>
+            <p><il>vi) ‘reducing variance’</il></p>
+            <div img="header"> <img src="https://images.unsplash.com/photo-1586527155047-b4639ecd6127?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #C9618A; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
         </ul>
         <p> After vi), you can then consider vii) reducing ‘waste’ and making it efficient. That is, focus first on effectiveness and then on efficiency. Taking shortcuts rarely results in a long-term success.</p>
-        <il><p>3. <b>General Steps for Problem-solving (when coming into an existing situation):
-</b>
-</p></il>
+        <il>
+            <p>
+                3. <b>
+                    General Steps for Problem-solving (when coming into an existing situation):
+                </b>
+            </p>
+        </il>
         <ul>
-        <il><p>i) Take time understanding the history behind the 1st six steps listed in the general steps for problem-solving
-</p>
+            <il>
+                <p>
+                    i) Take time understanding the history behind the 1st six steps listed in the general steps for problem-solving
+                </p>
             </il>
             <p><il>ii) Understand implicit and explicit assumptions and biases</il></p>
-            </ul>
+        </ul>
         <il><p>4. <b>Standardizing Processes:</b></p></il>
-    <p><il>When evaluating a process, standardizing, looking for variance, or are looking to “mistake proof”, consider how you are doing it and what you are delivering
-</il></p>
+        <p>
+            <il>
+                When evaluating a process, standardizing, looking for variance, or are looking to “mistake proof”, consider how you are doing it and what you are delivering
+            </il>
+        </p>
         <p><il>Before standardizing, go through the first 6 steps in the general steps. </il></p>
-            <p><il>Be careful about the cause and effect relationships</il></p>
-            <p><il>When standardizing, ensure you include how the standard can be adapted and changed as required
-</il></p>
-        <il><p>5. <b>Recognize the possibilities</b> of early life failure and be ready to deal with issues. The more ‘new’ things you are doing, the more opportunities will exist for unpleasant surprises. Rest assured, there will be surprises.</p>
-</il>
+        <p><il>Be careful about the cause and effect relationships</il></p>
+        <p>
+            <il>
+                When standardizing, ensure you include how the standard can be adapted and changed as required
+            </il>
+        </p>
+        <il>
+            <p>5. <b>Recognize the possibilities</b> of early life failure and be ready to deal with issues. The more ‘new’ things you are doing, the more opportunities will exist for unpleasant surprises. Rest assured, there will be surprises.</p>
+        </il>
         <il><p>6. If the situation has inherent variability and uncertainty that cannot be reduced by the process, account for this and for ‘reasonable judgement’ in interpreting the standard and process based on context.</p></il>
         <il><p>If you are suggesting that changes be made or that new processes be adopted, do them yourself first if you can. Demonstrate that you know what you are talking about, that you understand the strengths and weaknesses of which you speak. Show the personnel that even you can do the task and get results (or at least you know what they have to do, even if you do not have the skill to do it as well as they can). </p></il>
-        </ul>
+    </ul>
     </body>
-    <article class ="quote">
-    <h2> "Well, if it can be thought, it can be done, a problem can be overcome."</h2>
-        </article>
-        <h3> Related to this topic:</h3>
+    <article class="quote">
+        <h2> "Well, if it can be thought, it can be done, a problem can be overcome."</h2>
+    </article>
+    <h3> Related to this topic:</h3>
     <div class="related">
-       <a href="pageProblemSolving.html"class="relatedbutton"> Journeys of the Mind</a>
-        <a href="pageMistakes.html"class="relatedbutton">Pick Yourself Up</a>
-        <a href="pageUnstuck.html"class="relatedbutton">Becoming Unstuck</a>
+        <a href="pageProblemSolving.html" class="relatedbutton"> Journeys of the Mind</a>
+        <a href="pageMistakes.html" class="relatedbutton">Pick Yourself Up</a>
+        <a href="pageUnstuck.html" class="relatedbutton">Becoming Unstuck</a>
     </div>
-<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
-            </ul>
-<form action="">
-  <input type="search">
-  <i class="fa fa-search"></i>
-</form>-->
-    
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
+                </ul>
+    <form action="">
+      <input type="search">
+      <i class="fa fa-search"></i>
+    </form>-->
+
 </html>

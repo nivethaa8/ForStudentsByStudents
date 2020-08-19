@@ -1,116 +1,311 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>Resumes</title>
+    <title>Resumes</title>
     <link href="pagestyleResume.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
+
     <article class="HS">
         <h2>Resumes</h2>
+        </button>
     </article>
-    <div class="wrapper">
-        <a href="pageLifetimeLearning.html">
-    <button class="button">
-    How to Learn
-        </button></a>
-        <a href="pageProblemSolving.html">
-     <button class="button">
-    How to Problem-Solve
-        </button></a>
-        <a href ="pageCourse.html">
-     <button class="button">
-    Planning
-        </button></a>
-        <a href="pageMentalHealth.html">
-     <button class="button">
-    Mental Health
-        </button></a>
-        <a href="pageProfessionalStudent.html">
-     <button class="button">
-    Best Practices
-        </button></a>
-        <a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button></a>
-                    </div>
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageListening.html">
+                    How to Open your Ears
+                </a>
+                <a href="pageskills.html">
+                    Learning to use your Brain
+                </a>
+
+                <a href="pageLifetimeLearning.html">
+                    Learning as you Breathe
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep are you Reading
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+
+                <a href="pageMistakes.html">
+                    Pick Yourself Up
+                </a>
+                <a href="pageSurvivalGuide.html">
+                    Survival Guide for Real Life
+                </a>
+                <a href="pageUnstuck">
+                    Becoming Unstuck
+                </a>
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+                <a href="pageSuccess.html">
+                    How Does Success Look
+                </a>
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Stop Procrastinatinga
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTopics.html">
+                    Project Topics
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+                <a href="pageMeetings.html">
+                    Guide to Making Meetings Work
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageInterviews.html">
+                    Interviews
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+                <a href="pageCoopStatus.html">
+                    How You Feel At Work
+                </a>
+                <a href="pageJobHunting.html">
+                    Job Hunting
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+                <a href="pageCovidCoop.html">
+                    Covid and Coop
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch at Work
+                </a>
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
+            <button class="button">
+                Home
+            </button>
+        </a>
+
+    </div>
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
 
     <div class="Title"></div>
-        <h1>Resumes</h1>
-           
-        
-           <p> Resumes are a fun topic. Everyone and I do mean everyone will have an opinion on this. Your family members, your neighbours, your friends, your classmates, senior students, and the geese walking across the road. As a first-year student, you might find it tough to come up with points that will make yourself stand out to employers. But we were all in your position once before, and we’ve come up with the following points to give yourself an edge over other junior students:
+    <h1>Resumes</h1>
+
+
+    <p>
+        Resumes are a fun topic. Everyone and I do mean everyone will have an opinion on this. Your family members, your neighbours, your friends, your classmates, senior students, and the geese walking across the road. As a first-year student, you might find it tough to come up with points that will make yourself stand out to employers. But we were all in your position once before, and we’ve come up with the following points to give yourself an edge over other junior students:
+    </p>
+
+    <h1>The Basics:</h1>
+    <ol>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #8ab7ff; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+
+        <p>
+            <il>
+                <b>The purpose of the resume is to get the interview.</b> Never forget this. Never.
+            </il>
+        </p>
+        <p><il>For 99% of junior 1A/1B students - a one page resume is all that is warranted. Not two pages.</il></p>
+
+        <p>
+            <il>
+                Be weary of using colour or fancy formatting (like two columns) - make it easy and fast to read - they are not hiring you for your fancy word processing skills.
+            </il>
         </p>
 
-        <h1>The Basics:</h1>
-        <ol>
-            <div img="header"> <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #8ab7ff; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-            
-        <p><il>
-            <b>The purpose of the resume is to get the interview.</b> Never forget this. Never.
-        </il></p>
-        <p><il>For 99% of junior 1A/1B students – a one page resume is all that is warranted. Not two pages.</il></p>
-            
-        <p><il>
-            Be weary of using colour or fancy formatting (like two columns) – make it easy and fast to read – they are not hiring you for your fancy word processing skills. 
- </il></p>
-            
-            
+
         <p><il>Do not allow typos or goofs in the resume. Be consistent. Be neat and tidy.</il></p>
-            
-        <p><il>Do not use meaningless adjectives and keep claims to a reasonable level – You might be an expert compared to another 18 year old, but that does not mean you are an expert when an employer sees the word. 
-</il>
+
+        <p>
+            <il>
+                Do not use meaningless adjectives and keep claims to a reasonable level - You might be an expert compared to another 18 year old, but that does not mean you are an expert when an employer sees the word.
+            </il>
         </p>
-        <p><il>There are different resume ‘styles’ and content for first year students vs intermediate vs senior students considering options after graduation.
-</il></p>
-            
-            </ol>
-    
-    <h1>The Content:</h1><ul>
-    <div img="header"> <img src="https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #a79cff; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-    <p><il>In the co-op process, employers who get many many applications may spend 3-5 seconds per resume at the first look – What do they look at in those few seconds? <i>In the four months you will work with us, can we get something of value out of you.</i> If they cannot see the potential of this quickly or easily within the 3-5 seconds, they will move on.
-</il></p>
-    <p><il>The money-shot  has to be the first thing that gets their attention, the summary qualifications section – this section gives employers a reason to read on and consider you.</il></p>
-    
-    <p><il>The employers know that you are at UW, that you had to have a high average in high school, that you probably won all of the normal awards in high school, and did the normal things a top high school student does – no need to include. Only include something if it is really unique and special – not what everyone else in the class did. Only include your high school ‘facts’ if there is something special.
-</il></p>
-    <p><il><b>Include any special clubs or activities that showed responsibility, initiative, grit, determination, accountability, etc.</b> – but keep it simple if it is usual (e.g., the reader knows what a student council does or what a class rep does – just say you were head of the student council).
-</il></p>
-    <il><p>Keep the top of the resume very clean and simple – so and so, Management Engineering, Faculty of Engineering, 1A – that is all you need.</p></il>
-    <p><il>The top section should be relevant skills or something similar – the first point should be something that is very clear and outcome oriented – what can you do for the employer. They do not want to hear that you are energetic, a great communicator, an admired team player, that you can work with people. They want to know what you can DO. E.g., you know how to use Excel and VBA, pivot tables, forms, charts. This the employer can understand and get a handle on. In the body of the resume, you explain what you did with Excel.</il></p>
-    <p><il>In the experience section, explain what you learned and accomplished with the skills or on the job – e.g., you were responsible for the design or coding of the term project. For other types of jobs like working at a grocery store, do not include useless descriptions – everyone knows what someone does at a fast food location or grocery – one sentence will do. Mention interesting or unique things.
-</il></p>
-</ul>
+        <p>
+            <il>
+                There are different resume ‘styles’ and content for first year students vs intermediate vs senior students considering options after graduation.
+            </il>
+        </p>
+
+    </ol>
+
+    <h1>The Content:</h1>
+    <ul>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #a79cff; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+        <p>
+            <il>
+                In the co-op process, employers who get many many applications may spend 3-5 seconds per resume at the first look - What do they look at in those few seconds? <i>In the four months you will work with us, can we get something of value out of you.</i> If they cannot see the potential of this quickly or easily within the 3-5 seconds, they will move on.
+            </il>
+        </p>
+        <p><il>The money-shot  has to be the first thing that gets their attention, the summary qualifications section - this section gives employers a reason to read on and consider you.</il></p>
+
+        <p>
+            <il>
+                The employers know that you are at UW, that you had to have a high average in high school, that you probably won all of the normal awards in high school, and did the normal things a top high school student does - no need to include. Only include something if it is really unique and special - not what everyone else in the class did. Only include your high school ‘facts’ if there is something special.
+            </il>
+        </p>
+        <p>
+            <il>
+                <b>Include any special clubs or activities that showed responsibility, initiative, grit, determination, accountability, etc.</b> - but keep it simple if it is usual (e.g., the reader knows what a student council does or what a class rep does - just say you were head of the student council).
+            </il>
+        </p>
+        <il><p>Keep the top of the resume very clean and simple - so and so, Management Engineering, Faculty of Engineering, 1A - that is all you need.</p></il>
+        <p><il>The top section should be relevant skills or something similar - the first point should be something that is very clear and outcome oriented - what can you do for the employer. They do not want to hear that you are energetic, a great communicator, an admired team player, that you can work with people. They want to know what you can DO. E.g., you know how to use Excel and VBA, pivot tables, forms, charts. This the employer can understand and get a handle on. In the body of the resume, you explain what you did with Excel.</il></p>
+        <p>
+            <il>
+                In the experience section, explain what you learned and accomplished with the skills or on the job - e.g., you were responsible for the design or coding of the term project. For other types of jobs like working at a grocery store, do not include useless descriptions - everyone knows what someone does at a fast food location or grocery - one sentence will do. Mention interesting or unique things.
+            </il>
+        </p>
+    </ul>
     </body>
     <footer>
-    <article class ="quote">
-    <h2> "I want to look back on my career and be proud of the work, and be proud that I tried everything."</h2>
+        <article class="quote">
+            <h2> "I want to look back on my career and be proud of the work, and be proud that I tried everything."</h2>
         </article>
-        
+
         <h3> Related to this topic:</h3>
         <div class="related">
-       <a href="pageCoopStatus.html" class="relatedbutton"> How Do You Feel at Work</a>
-       <a href="pageInterviews.html"class="relatedbutton"> Interviews</a>
-      <a href="pageJobBehavior.html"class="relatedbutton">  How to not screw the pooch at Work</a>
-       <a href="pageAmbiguity.html"class="relatedbutton"> Crap, what just happened?</a>
-       <a href="pageMentorship.html"class="relatedbutton"> Following Guidance</a>
-       <a href="pageSummerVCoop.html"class="relatedbutton"> Summer Vs Coop</a>
-       <a href="pageCovidCoop.html"class="relatedbutton"> Covid and Coop</a>
-       <a href="pageJobHunting.html"class="relatedbutton"> Job Hunting</a>
-       <a href="pageSummerJobs.html"class="relatedbutton"> Summer Jobs</a>
+            <a href="pageCoopStatus.html" class="relatedbutton"> How Do You Feel at Work</a>
+            <a href="pageInterviews.html" class="relatedbutton"> Interviews</a>
+            <a href="pageJobBehavior.html" class="relatedbutton">  How to not screw the pooch at Work</a>
+            <a href="pageAmbiguity.html" class="relatedbutton"> Crap, what just happened?</a>
+            <a href="pageMentorship.html" class="relatedbutton"> Following Guidance</a>
+            <a href="pageSummerVCoop.html" class="relatedbutton"> Summer Vs Coop</a>
+            <a href="pageCovidCoop.html" class="relatedbutton"> Covid and Coop</a>
+            <a href="pageJobHunting.html" class="relatedbutton"> Job Hunting</a>
+            <a href="pageSummerJobs.html" class="relatedbutton"> Summer Jobs</a>
     </footer>
     </div>
-<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
-            </ul>
-<form action="">
-  <input type="search">
-  <i class="fa fa-search"></i>
-</form>-->
-    
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
+                </ul>
+    <form action="">
+      <input type="search">
+      <i class="fa fa-search"></i>
+    </form>-->
+
 </html>

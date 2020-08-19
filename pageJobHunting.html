@@ -1,116 +1,299 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>Job Hunting</title>
+    <title>Job Hunting</title>
     <link href="pagestyleJobHunting.css" rel="stylesheet" type="text/css">
 </head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+<script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
+
 <body>
     <article class="HS">
         <h2>Job Hunting</h2>
     </article>
-    <div class="wrapper">
-        <a href="pageLifetimeLearning.html">
-    <button class="button">
-    How to Learn
-        </button>
-            </a>
-        <a href="pageProblemSolving.html">
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageLifetimeLearning.html">
+                    Learning as you breathe
+                </a>
+                <a href="pageskills.html">
+                    Learning to use your Brain
+                </a>
+                <a href="pageReadingProfessional.html">
+                    Stop Being Illiterate
+                </a>
+                <a href="pageListening.html">
+                    How to open your ears
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep are you Reading
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+                <a href="pageMistakes">
+                    Pick Yourself Up
+                </a>
+                <a href="pageSurvivalGuide.html">
+                    Survival Guide for Real Life
+                </a>
+                <a href="pageUnstuck">
+                    Becoming Unstuck
+                </a>
+
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Not Procrastinate
+                </a>
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+                <a href="pageSuccess.html">
+                    How Does Success Look
+                </a>
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTopics.html">
+                    Project Topics
+                </a>
+                <a href="pageMeetings.html">
+                    Guide to Making Meetings Work
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageInterviews.html">
+                    Interviews
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+                <a href="pageCoopStatus.html">
+                    How You Feel At Work
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+                <a href="pageCovidCoop.html">
+                    Covid and Coop
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch at Work
+                </a>
+
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentalHealth.html">
+                    Mental Health
+                </a>
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
             <button class="button">
-    How to Problem-Solve
-        </button>
-            </a> 
-        <a href="pageCourse.html">
-     <button class="button">
-    Planning
-        </button></a>
-        <a href="pageMentalHealth.html">
-     <button class="button">
-    Mental Health
-        </button></a>
-        <a href="pageProfessionalStudent.html">
-     <button class="button">
-    Best Practices
-        </button></a>
-        <a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button></a>
-                    </div>
+                Home
+            </button>
+        </a>
+
+    </div>
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
+
 
     <div class="Title"></div>
-        <h1>Job Hunting</h1>
-           
-        <div img="header"> <img src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #DC95B6; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-           <p> This is another in the series about co-op, internship, or other experiential ‘on the job’ learning experiences students can seek. To be blunt, for some students it is just about getting enough money to pay for school, but for others, it is about experiential learning, what you can learn and benefit from a job while you are at university. The latter is the rationale behind most co-op and internship programs, it is not supposed to be about the money, but about the learning!
-        </p>
-<p>If possible, it is probably best if you can find your own job in advance (for some of the work periods, terms) and avoid the academic disruptions that come from the job hunt: resume and cover letter writing, applying, interviewing, etc. There are two ways to pull this off:</p>
+    <h1>Job Hunting</h1>
+
+    <div img="header"> <img src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #DC95B6; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>
+        This is another in the series about co-op, internship, or other experiential ‘on the job’ learning experiences students can seek. To be blunt, for some students it is just about getting enough money to pay for school, but for others, it is about experiential learning, what you can learn and benefit from a job while you are at university. The latter is the rationale behind most co-op and internship programs, it is not supposed to be about the money, but about the learning!
+    </p>
+    <p>If possible, it is probably best if you can find your own job in advance (for some of the work periods, terms) and avoid the academic disruptions that come from the job hunt: resume and cover letter writing, applying, interviewing, etc. There are two ways to pull this off:</p>
     <p>If possible, it is probably best if you can find your own job in advance (for some of the work periods, terms) and avoid the academic disruptions that come from the job hunt: resume and cover letter writing, applying, interviewing, etc. There are two ways to pull this off:</p>
     <ul>
-    <il><p>Use your network to locate and ‘sell’ yourself as an intern or co-op student</p></il>
+        <il><p>Use your network to locate and ‘sell’ yourself as an intern or co-op student</p></il>
         <ul>
             <il><p>Neighbours, family, family’s business/employment network.</p></il>
-        <il><p>Paying attention to official rules and regulations about conflict of interest, type of job/work allowed, etc.</p></il>
+            <il><p>Paying attention to official rules and regulations about conflict of interest, type of job/work allowed, etc.</p></il>
         </ul>
-        <il><p>Return to the last (or a previous) employer – remember: the only real way to demonstrate that the last employer valued you enough to actually hire you back – should do this once or twice in your work cycle!</p></il>
+        <il><p>Return to the last (or a previous) employer - remember: the only real way to demonstrate that the last employer valued you enough to actually hire you back - should do this once or twice in your work cycle!</p></il>
     </ul>
-    <p>If you are a junior student, remember that you might not be that much different from a high school senior looking for work and you need to highlight what concrete ‘value’ you can give the employer, hopefully gained in your first term or two at university. This is what we call the money-shot and it is something you place at the top of your resume to get the reader’s attention. What are 2-3 points that will get an employer’s attention. Not – I am a good communicator, I have passion, I am a good team player. Be more specific about what you can actually do that would help an employer! Why should an employer take the time to read more?</p>
-    <p>You should really only apply to jobs you will accept. If you are doing ‘look sees’ and are not serious, employers can often tell and you are not being fair to other students – for example, a student who really might have wanted this job did not get the interview because of you. It is also disrespectful of the employer’s time and effort; this can impact their perception of the school and impact future student opportunities.</p>
-    <div img="header"> <img src="https://images.unsplash.com/photo-1592766842214-535bf73a8d68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #8B87D7; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>If you are a junior student, remember that you might not be that much different from a high school senior looking for work and you need to highlight what concrete ‘value’ you can give the employer, hopefully gained in your first term or two at university. This is what we call the money-shot and it is something you place at the top of your resume to get the reader’s attention. What are 2-3 points that will get an employer’s attention. Not - I am a good communicator, I have passion, I am a good team player. Be more specific about what you can actually do that would help an employer! Why should an employer take the time to read more?</p>
+    <p>You should really only apply to jobs you will accept. If you are doing ‘look sees’ and are not serious, employers can often tell and you are not being fair to other students - for example, a student who really might have wanted this job did not get the interview because of you. It is also disrespectful of the employer’s time and effort; this can impact their perception of the school and impact future student opportunities.</p>
+    <div img="header"> <img src="https://images.unsplash.com/photo-1592766842214-535bf73a8d68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #8B87D7; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
     <p>If you are not one of the superstars and top elite, you need to figure out ways to get your resume to be read, looked at:</p>
     <ul>
-    <il><p>Avoid applying to positions where there are 000’s of applicants, or even over 30-40.</p></il>
+        <il><p>Avoid applying to positions where there are 000’s of applicants, or even over 30-40.</p></il>
         <ul><il><p>Remember, employers will interview perhaps only 6 and once they find 6 of the best, they will not really look closely at the other resumes.</p></il></ul>
-        <il><p>Apply to jobs that no one else wants – location, type of work.</p></il>
-        <ul><il><p>This will lower the pool of applicants and allow your resume to be seen.</p></il>
-        <p><il>Remember, the purpose of the resume is to get the interview, the interview’s purpose is to get the job.</il></p>
-        <p><il>Remember that you can learn a lot from less than optimal situations and these can give you great ‘lessons learned’ moments to use on your resume and during future interviews!</il></p>
+        <il><p>Apply to jobs that no one else wants - location, type of work.</p></il>
+        <ul>
+            <il><p>This will lower the pool of applicants and allow your resume to be seen.</p></il>
+            <p><il>Remember, the purpose of the resume is to get the interview, the interview’s purpose is to get the job.</il></p>
+            <p><il>Remember that you can learn a lot from less than optimal situations and these can give you great ‘lessons learned’ moments to use on your resume and during future interviews!</il></p>
             <il><p>If you get one of these jobs, your agenda is to nail it, get outstanding on the evaluation as this will be a great ‘indicator’ on your resume</p></il>
         </ul>
     </ul>
-    </body>
-    <footer>
-    <article class ="quote">
-    <h2> "Success is how high you bounce when you hit bottom."</h2>
-        </article>
-        <h3> Related to this topic:</h3>
+</body>
+<footer>
+    <article class="quote">
+        <h2> "Success is how high you bounce when you hit bottom."</h2>
+    </article>
+    <h3> Related to this topic:</h3>
     <div class="related">
         <a href="pageCoopStatus.html">
-    <button class="relatedbutton">
-        How Do You Feel at Work
-        </button></a>
+            <button class="relatedbutton">
+                How Do You Feel at Work
+            </button>
+        </a>
         <a href="pageInterviews.html">
-    <button class="relatedbutton">
-        Interviews
-        </button></a>
+            <button class="relatedbutton">
+                Interviews
+            </button>
+        </a>
         <a href="pageJobBehavior.html">
-    <button class="relatedbutton">
-        How to not screw the pooch at Work
-        </button>
-            </a>
+            <button class="relatedbutton">
+                How to not screw the pooch at Work
+            </button>
+        </a>
         <a href="pageMentorship.html">
-         <button class="relatedbutton">
-        Following Guidance
-        </button></a>
+            <button class="relatedbutton">
+                Following Guidance
+            </button>
+        </a>
         <a href="pageJobHunting.html">
-        <button class="relatedbutton">
-        Job Hunting
-        </button></a>
-        <a href="pageResume.html"><button class="relatedbutton">
-        Resumes
-        </button></a>
-       <a href="pageSummerJobs.html"> <button class="relatedbutton">
-        Summer Jobs
-        </button></a>
-       <a href="pageSummerVCoop.html"> <button class="relatedbutton">
-        Summer Vs Coop
-        </button></a>
+            <button class="relatedbutton">
+                Job Hunting
+            </button>
+        </a>
+        <a href="pageResume.html">
+            <button class="relatedbutton">
+                Resumes
+            </button>
+        </a>
+        <a href="pageSummerJobs.html">
+            <button class="relatedbutton">
+                Summer Jobs
+            </button>
+        </a>
+        <a href="pageSummerVCoop.html">
+            <button class="relatedbutton">
+                Summer Vs Coop
+            </button>
+        </a>
     </div>
-    </footer>
+</footer>
 <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
             </ul>
@@ -118,5 +301,5 @@
   <input type="search">
   <i class="fa fa-search"></i>
 </form>-->
-    
+
 </html>

@@ -1,127 +1,319 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>Covid and Coop</title>
+    <title>Covid and Coop</title>
     <link href="pagestyleCovidCoop.css" rel="stylesheet" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
+
 </head>
 <body>
     <article class="HS">
         <h2>Covid and Coop</h2>
     </article>
-    <div class="wrapper">
-        <a href="pageLifetimeLearning.html">
-    <button class="button">
-    How to Learn
-        </button></a>
-        <a href="pageProblemSolving.html">
-     <button class="button">
-    How to Problem-Solve
-        </button></a>
-        <a href="pageCourse.html">
-     <button class="button">
-    Planning
-        </button></a>
-        <a href="pageMentalHealth.html">
-     <button class="button">
-    Mental Health
-        </button></a>
-        <a href="pageProfessionalStudent.html">
-     <button class="button">
-    Best Practices
-        </button></a>
-        <a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button></a>
-                    </div>
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageLifetimeLearning.html">
+                    Learning as you breathe
+                </a>
+                <a href="pageskills.html">
+                    Learning to use your Brain
+                </a>
+                <a href="pageReadingProfessional.html">
+                    Stop Being Illiterate
+                </a>
+                <a href="pageListening.html">
+                    How to open your ears
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep are you Reading
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+                <a href="pageMistakes">
+                    Pick Yourself Up
+                </a>
+                <a href="pageSurvivalGuide.html">
+                    Survival Guide for Real Life
+                </a>
+                <a href="pageUnstuck">
+                    Becoming Unstuck
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Not Procrastinate
+                </a>
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+                <a href="pageSuccess.html">
+                    How Does Success Look
+                </a>
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This Ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTopics.html">
+                    Project Topics
+                </a>
+                <a href="pageMeetings.html">
+                    Guide to Making Meetings Work
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageInterviews.html">
+                    Interviews
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+                <a href="pageCoopStatus.html">
+                    How You Feel At Work
+                </a>
+                <a href="pageJobHunting.html">
+                    Job Hunting
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentalHealth.html">
+                    Mental Health
+                </a>
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
+            <button class="button">
+                Home
+            </button>
+        </a>
+
+    </div>
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
+
+
     <div class="Title"></div>
-        <h1>Coop in the Time of Covid</h1>
-                       <div img="header"> <img src="https://images.unsplash.com/photo-1592438893201-0e9e4d57d2cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #6E7ECF; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-           <p> This is a challenging time for university students seeking employment as co-op students or interns.  We understand that the $$$ is important and so is the ability to ‘add’ to your resume – developing skills, knowledge, experiences that will help you with employment when you graduate. The work terms also provide valuable networking opportunities. We get this. So, what strategies can you use to improve the odds of getting a job?
-        </p>
+    <h1>Coop in the Time of Covid</h1>
+    <div img="header"> <img src="https://images.unsplash.com/photo-1592438893201-0e9e4d57d2cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #6E7ECF; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>
+        This is a challenging time for university students seeking employment as co-op students or interns.  We understand that the $$$ is important and so is the ability to ‘add’ to your resume - developing skills, knowledge, experiences that will help you with employment when you graduate. The work terms also provide valuable networking opportunities. We get this. So, what strategies can you use to improve the odds of getting a job?
+    </p>
     <p>You can contact previous employers (another reason for always giving it your best shot, shooting for outstanding no matter what), the family/business network, your social media network (their family, business contacts), alumni networks, neighbours, etc. Do not just rely on the co-op system!</p>
 
-        <h1>Resume</h1>
-        <ol>
-            <div img="header"> <img src="https://images.unsplash.com/photo-1584530007341-7ccbb2778bad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #6E7ECF; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-            
-        <p><il>
-            Make sure your resume is targeted for the job you are applying to – that the ‘money-shot’ resonates immediately with the employer as soon as they get past your name. The ‘money-shot’ is how you explain the value you can provide to the company if they hire. What hard skills and knowledge can they leverage!
-        </il></p>
-        <p><il>Make the resume easy to read and easy for the employer to see what you have done, what value you have been to past employers, what you have learned, and what your potential is – be concise, do not overstate the obvious, and be careful about tone and attitude (phrasing and adjectives used).
-</il></p>
-            
-        <p><il>
-            Highlight whatever skills and experiences relating to online work you have and how you can function and provide value with remote supervision, little face-to-face, few opportunities for praise.
- </il></p>
-            
-            </ol>
+    <h1>Resume</h1>
+    <ol>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1584530007341-7ccbb2778bad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #6E7ECF; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+
+        <p>
+            <il>
+                Make sure your resume is targeted for the job you are applying to - that the ‘money-shot’ resonates immediately with the employer as soon as they get past your name. The ‘money-shot’ is how you explain the value you can provide to the company if they hire. What hard skills and knowledge can they leverage!
+            </il>
+        </p>
+        <p>
+            <il>
+                Make the resume easy to read and easy for the employer to see what you have done, what value you have been to past employers, what you have learned, and what your potential is - be concise, do not overstate the obvious, and be careful about tone and attitude (phrasing and adjectives used).
+            </il>
+        </p>
+
+        <p>
+            <il>
+                Highlight whatever skills and experiences relating to online work you have and how you can function and provide value with remote supervision, little face-to-face, few opportunities for praise.
+            </il>
+        </p>
+
+    </ol>
     <ul>
-    <il><p>The technology you have used, are comfortable with (e.g., Msft Teams, Slack, WebEx, Zoom, etc.)</p></il>
+        <il><p>The technology you have used, are comfortable with (e.g., Msft Teams, Slack, WebEx, Zoom, etc.)</p></il>
         <il><p>Your work ethic, self-motivation, engagement</p></il>
         <il><p>Your time management, ability to work in a remote-team situation</p></il>
         <il><p>Your ability to figure it out, get it done, know when to ask questions, when not to do so.</p></il>
     </ul>
-    
+
     <h1>Applying</h1><ul>
-    <div img="header"> <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #6F58C8; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-    <p>Focus on getting ANY eligible job that fits your program requirements that will be fair and not abusive. Do not be picky over cosmetic points, do not worry about the bling-bling reputations, do not worry so much about the money, do not worry about perks and how the ‘name’ will look in your social media posts.</p>
-    <p><il>Any job will do because you can turn any lemon into lemonade.
-</il></p>
-    <ul>
-    <p><il>You can learn the most from challenging situations, smaller situations where you have decision making and accountability (versus being a small cog in a big machine).
-</il></p>
-    <p><il>Watch, observe, reflect and use these insights to improve yourself and for added-value on your resumes.
-</il></p>
-        <p><il>Use these moments in your resume and interviews in a constructive, professional way.</il></p>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #6F58C8; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+        <p>Focus on getting ANY eligible job that fits your program requirements that will be fair and not abusive. Do not be picky over cosmetic points, do not worry about the bling-bling reputations, do not worry so much about the money, do not worry about perks and how the ‘name’ will look in your social media posts.</p>
+        <p>
+            <il>
+                Any job will do because you can turn any lemon into lemonade.
+            </il>
+        </p>
+        <ul>
+            <p>
+                <il>
+                    You can learn the most from challenging situations, smaller situations where you have decision making and accountability (versus being a small cog in a big machine).
+                </il>
+            </p>
+            <p>
+                <il>
+                    Watch, observe, reflect and use these insights to improve yourself and for added-value on your resumes.
+                </il>
+            </p>
+            <p><il>Use these moments in your resume and interviews in a constructive, professional way.</il></p>
         </ul>
     </ul>
-    </body>
-    <footer>
-    <article class ="quote">
-    <h2> "The ingredients of health and long life are great temperance, open-air, easy labor, and little care."</h2>
-        </article>
-        <h3> Related to this topic:</h3>
+</body>
+<footer>
+    <article class="quote">
+        <h2> "The ingredients of health and long life are great temperance, open-air, easy labor, and little care."</h2>
+    </article>
+    <h3> Related to this topic:</h3>
     <div class="related">
         <a href="pageCoopStatus.html">
-    <button class="relatedbutton">
-        How Do You Feel at Work
-        </button></a>
+            <button class="relatedbutton">
+                How Do You Feel at Work
+            </button>
+        </a>
         <a href="pageInterviews.html">
-    <button class="relatedbutton">
-        Interviews
-        </button>
-            </a>
+            <button class="relatedbutton">
+                Interviews
+            </button>
+        </a>
         <a href="pageJobBehavior.html">
-    <button class="relatedbutton">
-        How to not screw the pooch at Work
-        </button></a>
+            <button class="relatedbutton">
+                How to not screw the pooch at Work
+            </button>
+        </a>
         <a href="pageMentorship.html">
-         <button class="relatedbutton">
-        Following Guidance
-        </button>
-            </a>
+            <button class="relatedbutton">
+                Following Guidance
+            </button>
+        </a>
         <a href="pageSummerVCoop.html">
-           <button class="relatedbutton">
-        Summer Vs Coop
-        </button>
-            </a>
+            <button class="relatedbutton">
+                Summer Vs Coop
+            </button>
+        </a>
         <a href="pageJobHunting.html">
-        <button class="relatedbutton">
-        Job Hunting
-        </button></a>
+            <button class="relatedbutton">
+                Job Hunting
+            </button>
+        </a>
         <a href="pageSummerJobs.html">
-        <button class="relatedbutton">
-        Summer Jobs
-        </button>
-            </a>
+            <button class="relatedbutton">
+                Summer Jobs
+            </button>
+        </a>
     </div>
-    </footer>
+</footer>
 <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
             </ul>
@@ -129,5 +321,5 @@
   <input type="search">
   <i class="fa fa-search"></i>
 </form>-->
-    
+
 </html>

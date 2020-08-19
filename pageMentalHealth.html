@@ -1,100 +1,288 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>Mental Health </title>
+    <title>Mental Health </title>
     <link href="pagestyleMentalHealth.css" rel="stylesheet" type="text/css">
 </head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+<script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
+
 <body>
     <article class="HS">
         <h2>Mental Health</h2>
     </article>
-    <div class="wrapper">
-        <a href="pageLifetimeLearning.html">
-    <button class="button">
-   How to Learn
-        </button></a>
-        <a href="pageProblemSolving.html">
-     <button class="button">
-    How to Problem-Solve
-        </button>
-            </a>
-        <a href="pageProfessionalStudent.html">
-     <button class="button">
-    Best Practices
-        </button>
-            </a>
-        <a href="pageCourse.html">
-     <button class="button">
-    Planning
-        </button>
-            </a>
-        <a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button>
-            </a>
-        <a href="pageMentorship.html">
-         <button class="button">
-   Careers
-        </button></a>
-                    </div>
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageListening.html">
+                    How to Open your Ears
+                </a>
+                <a href="pageskills.html">
+                    Learning to use your Brain
+                </a>
+                <a href="pageReadingProfessional.html">
+                    Stop Being Illiterate
+                </a>
+                <a href="pageLifetimeLearning.html">
+                    Learning as you Breathe
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep are you Reading
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+                <a href="pageMistakes">
+                    Pick Yourself Up
+                </a>
+                <a href="pageSurvivalGuide.html">
+                    Survival Guide for Real Life
+                </a>
+                <a href="pageUnstuck">
+                    Becoming Unstuck
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Not Procrastinate
+                </a>
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+                <a href="pageSuccess.html">
+                    How Does Success Look
+                </a>
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTopics.html">
+                    Project Topics
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+                <a href="pageMeetings.html">
+                   Guide to Making Meetings Work
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageInterviews.html">
+                    Interviews
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+                <a href="pageCoopStatus.html">
+                    How You Feel At Work
+                </a>
+                <a href="pageJobHunting.html">
+                    Job Hunting
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+                <a href="pageCovidCoop.html">
+                    Covid and Coop
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch at Work
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
+            <button class="button">
+                Home
+            </button>
+        </a>
+
+    </div>
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
 
     <div class="Title"></div>
-        <h1>Mental Health</h1>
-           
-        <div img="header"> <img src="https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #7196CE; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-           <p> The following document is formed around student opinions and experiences regarding mental health. This document shouldn’t be used in place of professional services but rather as surface level information on the topic.
-        </p>
+    <h1>Mental Health</h1>
+
+    <div img="header"> <img src="https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #7196CE; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>
+        The following document is formed around student opinions and experiences regarding mental health. This document shouldn’t be used in place of professional services but rather as surface level information on the topic.
+    </p>
     <p>Through a quick search online, you’ll find that mental health is defined as a person’s <b>emotional, psychological, and social well-being</b>. As students, we grow to see that life is pretty uncertain and there will be times that you may feel as though you have not lived up to yours or others’ expectations. Although this may be the case, it’s fair to say that no one is really 100% ‘ok’, 100% of the time. With all the change that we undergo as students and the pressures around us, there will be times where we will be unhappy, sad, bored, anxious, excited, happy, etc. - but this is all natural. Sometimes, we need the ‘bad’ days to teach us how to really appreciate the ‘good’ days. If we only had good days, everything would feel the same and life wouldn’t be as unique as it is. </p>
-<h1>Listed below are some Student Insights around Mental Health:</h1>
+    <h1>Listed below are some Student Insights around Mental Health:</h1>
     <ul>
-     <il><p>There is normal anxiety and occasionally feeling a little depressed about something. There are clinical categories of anxiety and depression. Sometimes, you may anticipate anxiety and not be worried about it.
-</p></il>
-        <div img="header"> <img src="https://images.unsplash.com/photo-1564682895970-0dbb72e18d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #358998; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-        <il><p>You should know what the resources are on campus and off – weekdays and 7x24. If you think you need accommodation for anxiety, stress, or a learning disorder, deal with it as soon as possible. There can be waitlists and if your condition is serious enough to need accommodation, it can take time to set up and arrange. Sometimes it is possible to help you and deal with your issues without formal accommodation! Check out the links to resources below!
-</p></il>
-        <p><il>If you have an accessibility issue, try to work with the counsellors etc. to see if there are ways to get better – do not necessarily accept the status quo, or assume that certain issues cannot be dealt with through therapy or practice.
-</il></p>
-        <il><p>In today’s world of video games and online worlds, it can be easy for individuals to become socially isolated. These individuals may say things that seem normal online but not in person- know how to tell the difference between real risks and threats </p></il>
-        </ul>
-        <h1>Helping others with mental health:</h1>
-<div img="header"> <img src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #358998; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-        <ul>
-        <il><p>
-            If you know someone is struggling, try to talk to them or get them to seek help from others. Avoid piling on myths or saying things that might deter them from trying counselling or other services.
-        </p></il>
-        
-        <il><p>Others interacting with the individual should also be educated about the issues if they are directly impacted, and understand what treatment process is being undertaken and what the implications might be – during the journey and what the outcomes might be.
-
-</p></il>
-            </ul>
-    <h1>Counselling:</h1>
-        <il><p>Just because counselling may not have helped someone else, doesn’t mean it can’t help you- everyone experiences things differently. </p>
+        <il>
+            <p>
+                There is normal anxiety and occasionally feeling a little depressed about something. There are clinical categories of anxiety and depression. Sometimes, you may anticipate anxiety and not be worried about it.
+            </p>
+        </il>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1564682895970-0dbb72e18d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #358998; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+        <il>
+            <p>
+                You should know what the resources are on campus and off - weekdays and 7x24. If you think you need accommodation for anxiety, stress, or a learning disorder, deal with it as soon as possible. There can be waitlists and if your condition is serious enough to need accommodation, it can take time to set up and arrange. Sometimes it is possible to help you and deal with your issues without formal accommodation! Check out the links to resources below!
+            </p>
+        </il>
+        <p>
+            <il>
+                If you have an accessibility issue, try to work with the counsellors etc. to see if there are ways to get better - do not necessarily accept the status quo, or assume that certain issues cannot be dealt with through therapy or practice.
             </il>
-        <p><il>Do not be off-put from counselling or other services just because you hear there is a waitlist or because you are worried others will judge you, it's always worth giving it a shot.</il></p>
-        <p><il>Counsellors are trained professionals that can give guidance, advice, or help you understand what you are feeling. Sometimes, a counsellor might not be the right fit for you. You can also explore mentors, coaches, or even more specialized professionals such as psychologists. </il></p>
+        </p>
+        <il><p>In today’s world of video games and online worlds, it can be easy for individuals to become socially isolated. These individuals may say things that seem normal online but not in person- know how to tell the difference between real risks and threats </p></il>
+    </ul>
+    <h1>Helping others with mental health:</h1>
+    <div img="header"> <img src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #358998; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
     <ul>
-    <il><p>Coaches and mentors should be able to relate to you, not to judge, but rather to be there to support your goals. They may be friends, family, classmates, or others. 
+        <il>
+            <p>
+                If you know someone is struggling, try to talk to them or get them to seek help from others. Avoid piling on myths or saying things that might deter them from trying counselling or other services.
+            </p>
+        </il>
 
-</p></il>
-        <p><a href="https://uwaterloo.ca/campus-wellness/counselling-services
-https://uwaterloo.ca/campus-wellness/sites/ca.campus-wellness/files/uploads/files/c015377-supporting-students-resources_final-s.pdf" class style="color: cornflowerblue">Campus Wellness Services</a></p>
+        <il>
+            <p>
+                Others interacting with the individual should also be educated about the issues if they are directly impacted, and understand what treatment process is being undertaken and what the implications might be - during the journey and what the outcomes might be.
+
+            </p>
+        </il>
+    </ul>
+    <h1>Counselling:</h1>
+    <il>
+        <p>Just because counselling may not have helped someone else, doesn’t mean it can’t help you- everyone experiences things differently. </p>
+    </il>
+    <p><il>Do not be off-put from counselling or other services just because you hear there is a waitlist or because you are worried others will judge you, it's always worth giving it a shot.</il></p>
+    <p><il>Counsellors are trained professionals that can give guidance, advice, or help you understand what you are feeling. Sometimes, a counsellor might not be the right fit for you. You can also explore mentors, coaches, or even more specialized professionals such as psychologists. </il></p>
+    <ul>
+        <il>
+            <p>
+                Coaches and mentors should be able to relate to you, not to judge, but rather to be there to support your goals. They may be friends, family, classmates, or others.
+
+            </p>
+        </il>
+        <p>
+            <a href="https://uwaterloo.ca/campus-wellness/counselling-services
+https://uwaterloo.ca/campus-wellness/sites/ca.campus-wellness/files/uploads/files/c015377-supporting-students-resources_final-s.pdf" class style="color: cornflowerblue">Campus Wellness Services</a>
+        </p>
 
     </ul>
-        
-    </body>
-    <article class ="quote">
+
+</body>
+<article class="quote">
     <h2> "One small crack does not mean that you are broken, it means that you were put to the test and you didn’t fall apart."</h2>
-        </article>
-        <h3> Related to this topic:</h3>
-    <div class="related">
-        <a href="pageADHD.html" class="relatedbutton" >Learning Challenges such as ADHD</a>
-    </div>
+</article>
+<h3> Related to this topic:</h3>
+<div class="related">
+    <a href="pageADHD.html" class="relatedbutton">Learning Challenges such as ADHD</a>
+</div>
 <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
             </ul>
@@ -102,5 +290,5 @@ https://uwaterloo.ca/campus-wellness/sites/ca.campus-wellness/files/uploads/file
   <input type="search">
   <i class="fa fa-search"></i>
 </form>-->
-    
+
 </html>

@@ -1,131 +1,330 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
-        h2 {text-align: center;}
-        button{align-content: center;}
-        searchtext{align-content: center;}
+
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            align-content: center;
+        }
+
+        searchtext {
+            align-content: center;
+        }
     </style>
-<title>Resumes</title>
+    <title>Resumes</title>
     <link href="pagestyleInterviews.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175557037-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175557037-1');</script>
     <article class="HS">
         <h2>Interviews</h2>
     </article>
-    <div class="wrapper">
-        <a href="pageLifetimeLearning.html">
-    <button class="button">
-    How to Learn
-        </button></a>
-        <a href="pageProblemSolving.html">
-     <button class="button">
-    How to Problem-Solve
-        </button>
-            </a>
-        <a href="pageCourse.html">
-     <button class="button">
-    Planning
-        </button>
-            </a>
-        <a href="pageMentalHealth.html">
-     <button class="button">
-    Mental Health
-        </button>
-            </a>
-      <a href="pageProfessionalStudent.html">
-     <button class="button">
-    Best Practices
-        </button>
-          </a>
-<a href="pageTeamwork.html">
-     <button class="button">
-    Working in Teams
-        </button></a>
-                    </div>
+    <div id="nav">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Learn
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageLifetimeLearning.html">
+                    Learning as you breathe
+                </a>
+                <a href="pageskills.html">
+                    Learning to use your Brain
+                </a>
+                <a href="pageReadingProfessional.html">
+                    Stop Being Illiterate
+                </a>
+                <a href="pageListening.html">
+                    How to open your ears
+                </a>
+                <a href="pageComprehension.html">
+                    How Deep are you Reading
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                How to Problem-Solve
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProblemSolving.html">
+                    Journeys of the Mind
+                </a>
+                <a href="pageMistakes">
+                    Pick Yourself Up
+                </a>
+                <a href="pageSurvivalGuide.html">
+                    Survival Guide for Real Life
+                </a>
+                <a href="pageUnstuck">
+                    Becoming Unstuck
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Best Practices
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageProfessionalStudent.html">
+                    A Students Guide for Being a Student
+                </a>
+                <a href="pageProcrastination.html">
+                    How to Not Procrastinate
+                </a>
+                <a href="pageStudyExam.html">
+                    Study Tips for Exams
+                </a>
+                <a href="pageSuccess.html">
+                    How Does Success Look
+                </a>
+                <a href="pageQuestions.html">
+                    What you Don't Know?
+                </a>
+                <a href="pageWritingTests.html">
+                    Writing in the Exam Hall
+                </a>
+                <a href="pageCrossingLine.html">
+                    Crossing the Line
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+
+                Planning
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageCourse.html">
+                    University Readiness Guide
+                </a>
+                <a href="pageHS.html">
+                    This ain't High School
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Working in Teams
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageTeamwork.html">
+                    Teamwork Makes the Dream Work
+                </a>
+                <a href="pageTopics.html">
+                    Project Topics
+                </a>
+                <a href="pageMeetings.html">
+                    Guide to Making Meetings Work
+                </a>
+                <a href="pageTechProjects.html">
+                    Tech for Projects
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Careers
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentorship.html">
+                    Following Guidance
+                </a>
+                <a href="pageResume.html">
+                    Resumes
+                </a>
+                <a href="pageJobBehavior.html">
+                    How to Not Screw the Pooch
+                </a>
+                <a href="pageSummerVCoop.html">
+                    Summer Vs Coop
+                </a>
+                <a href="pageCoopStatus.html">
+                    How You Feel At Work
+                </a>
+                <a href="pageJobHunting.html">
+                    Job Hunting
+                </a>
+                <a href="pageSummerJobs.html">
+                    Summer Jobs
+                </a>
+                <a href="pageCoopStatus.html">
+                    How you Feel at Work
+                </a>
+                <a href="pageAmbiguity.html">
+                    Crap, what just happened?
+                </a>
+                <a href="pageCovidCoop.html">
+                    Covid and Coop
+                </a>
+
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">
+                Mental Health
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="pageMentalHealth.html">
+                    Mental Health
+                </a>
+                <a href="pageADHD.html">
+                    Learning Challenges such as ADHD
+                </a>
+
+            </div>
+        </div>
+
+        <a href="homepage.html">
+            <button class="button">
+                Home
+            </button>
+        </a>
+
+    </div>
+    <script>var myFunction = function (target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
 
     <div class="Title"></div>
-        <h1>Interviews</h1>
-           <p> Interviews occur when an employer sees potential in a candidate’s resume. For many students, they may have little or no experience with interviewing so, we have compiled some general tips as well as advice for preparation and tips for during the interview.
+    <h1>Interviews</h1>
+    <p>
+        Interviews occur when an employer sees potential in a candidate’s resume. For many students, they may have little or no experience with interviewing so, we have compiled some general tips as well as advice for preparation and tips for during the interview.
+    </p>
+
+    <h1>General tips/info:</h1>
+    <ol>
+        <div img="header"> <img src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #585EC7; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+
+        <p>
+            <il>
+                Ensure your social media is CLEAN.
+            </il>
+        </p>
+        <p><il><b>The reason a company hires you isn’t for you, but rather they are paying you to add value to their company.</b></il></p>
+
+        <p>
+            <il>
+                Only apply for jobs you’d actually take if you were offered (don’t waste people’s time by applying for a job you wouldn’t actually take).
+            </il>
         </p>
 
-        <h1>General tips/info:</h1>
-        <ol>
-            <div img="header"> <img src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #585EC7; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-            
-        <p><il>
-            Ensure your social media is CLEAN.
-        </il></p>
-        <p><il><b>The reason a company hires you isn’t for you, but rather they are paying you to add value to their company.</b></il></p>
-            
-        <p><il>
-            Only apply for jobs you’d actually take if you were offered (don’t waste people’s time by applying for a job you wouldn’t actually take). 
- </il></p>
-            
-            
+
         <p><il>Your best odds on landing an interview as a junior student comes from considering applying to jobs that others do not want, in places others do not want to go. This ensures that you enter a small pool of resumes which may increase your odds.</il></p>
-            
-            </ol>
-    
+
+    </ol>
+
     <h1>Preparation:</h1>
-    <div img="header"> <img src="https://images.unsplash.com/photo-1459499362902-55a20553e082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1910&q=80" alt="Italian Trulli"style="float:right;width:400px;height:300px;border-color: #557CC4; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
-    <p><il><b>Research</b> the company, products, customers, competition, understand anything in the “news” that you can talk about during the interview.
-</il></p>
-    <p><il>Have good questions ready and
-        do not hesitate when employers try to throw you off-guard with questions.</il></p>
+    <div img="header"> <img src="https://images.unsplash.com/photo-1459499362902-55a20553e082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1910&q=80" alt="Italian Trulli" style="float:right;width:400px;height:300px;border-color: #557CC4; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick;"></div>
+    <p>
+        <il>
+            <b>Research</b> the company, products, customers, competition, understand anything in the “news” that you can talk about during the interview.
+        </il>
+    </p>
+    <p>
+        <il>
+            Have good questions ready and
+            do not hesitate when employers try to throw you off-guard with questions.
+        </il>
+    </p>
     <ul>
-    <p><il>Company culture/way of work
-</il></p>
-    <p><il>Expectations/what they hope to get out of your effort
-</il></p>
+        <p>
+            <il>
+                Company culture/way of work
+            </il>
+        </p>
+        <p>
+            <il>
+                Expectations/what they hope to get out of your effort
+            </il>
+        </p>
         <p><il>Criteria for success as a good co-op student</il></p>
-        </ul>
+    </ul>
     <il><p>Think about possible questions- about you, why you want the job, what you want to learn, how you can contribute to the company or add value.</p></il>
-    <p><il><a href"https://www.themuse.com/advice/51-interview-questions-you-should-be-asking">Ideas for questions you can ask your interviewer.</a>
-</il></p>
-    <p><il>Know your resume very well- employers may ask questions about aspects on it (have specific examples to back your points)
-</il></p>
-    <il><p>Know the job posting well, try to really understand the job ad
-Wear something clean and professional.
-</p></il>
+    <p>
+        <il>
+            <a href"https: //www.themuse.com/advice/51-interview-questions-you-should-be-asking">Ideas for questions you can ask your interviewer.</a>
+        </il>
+    </p>
+    <p>
+        <il>
+            Know your resume very well- employers may ask questions about aspects on it (have specific examples to back your points)
+        </il>
+    </p>
+    <il>
+        <p>
+            Know the job posting well, try to really understand the job ad
+            Wear something clean and professional.
+        </p>
+    </il>
     <h1>During the interview:</h1>
-    <p>Show that you want the job more than senior students, that you prepared better & are more interested. 
-</p>
+    <p>
+        Show that you want the job more than senior students, that you prepared better & are more interested.
+    </p>
     <il><p>Tips on Body Language:</p></il>
     <ul>
-    <il><p>Know how to do a good handshake 
-</p></il>
+        <il>
+            <p>
+                Know how to do a good handshake
+            </p>
+        </il>
         <il><p>Maintain good eye contact; look confident, even while you are saying “I don’t know”</p></il>
         <il><p>Appear interested and enthusiastic</p></il>
-        
+
     </ul>
     <p>Do not over exaggerate or BS your skills, be humble.</p>
-    <p>Wait until the end to ask about salary if the employer doesn’t mention it
-</p>
+    <p>
+        Wait until the end to ask about salary if the employer doesn’t mention it
+    </p>
     </body>
     <footer>
-    <article class ="quote">
-    <h2> "Experience is not what happens to a man.
-It is what a man does with what happens to him."</h2>
+        <article class="quote">
+            <h2>
+                "Experience is not what happens to a man.
+                It is what a man does with what happens to him."
+            </h2>
         </article>
         <h3> Related to this topic:</h3>
-    <div class="related">
-       <a href="pageCoopStatus.html"class="relatedbutton"> How Do You Feel at Work</a>
-       <a href="pageResume.html"class="relatedbutton"> Resumes</a>
-       <a href="pageJobBehavior.html"class="relatedbutton"> How to not screw the pooch at Work</a>
-       <a href="pageMentorship.html"class="relatedbutton"> Following Guidance</a>
-      <a href="pageSummerVCoop.html"class="relatedbutton">  Summer Vs Coop</a>
-       <a href="pageJobHunting.html"class="relatedbutton">Job Hunting</a> 
-       <a href="pageCovidCoop.html"class="relatedbutton"> Covid and Coop</a>
-       <a href="pageSummerJobs.html"class="relatedbutton"> Summer Jobs</a>
-    </div>
+        <div class="related">
+            <a href="pageCoopStatus.html" class="relatedbutton"> How Do You Feel at Work</a>
+            <a href="pageResume.html" class="relatedbutton"> Resumes</a>
+            <a href="pageJobBehavior.html" class="relatedbutton"> How to not screw the pooch at Work</a>
+            <a href="pageMentorship.html" class="relatedbutton"> Following Guidance</a>
+            <a href="pageSummerVCoop.html" class="relatedbutton">  Summer Vs Coop</a>
+            <a href="pageJobHunting.html" class="relatedbutton">Job Hunting</a>
+            <a href="pageCovidCoop.html" class="relatedbutton"> Covid and Coop</a>
+            <a href="pageSummerJobs.html" class="relatedbutton"> Summer Jobs</a>
+        </div>
     </footer>
-<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
-            </ul>
-<form action="">
-  <input type="search">
-  <i class="fa fa-search"></i>
-</form>-->
-    
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=800px;"style="align:right;width:400px;height:300px;border-color: #6876CA; border-style: outset;margin-right:3%;margin-left:3%;border-width: thick; margin-top: 5%">
+                </ul>
+    <form action="">
+      <input type="search">
+      <i class="fa fa-search"></i>
+    </form>-->
+
 </html>
