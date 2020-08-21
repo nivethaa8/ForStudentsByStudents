@@ -75,24 +75,19 @@
         font-family: Helvetica, sans-serif;
     }
 
-        /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {
-            background-color: #3d3d3d;
-            color: #d1d1d1;
-        }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display: block;
 }
-
-
 /*Text*/
-
-h1{
+h1 {
     color: #3DADA0;
     margin-left: 5%;
-        font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 p{

@@ -81,12 +81,16 @@
             color: #d1d1d1;
         }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display: block;
 }
     /*Text*/
-    h1{
+h1{
     color: #7481D2;
     margin-left: 5%;
         font-family: Helvetica, sans-serif;
@@ -110,6 +114,11 @@ background-color: #6BCCC7;
     margin-bottom: 5%;
 }
 
+.boxed {
+    border-style: groove;
+    border-width: 10px;
+}
+
 
 /*Related*/
 
@@ -131,14 +140,20 @@ h3{
     text-align: center;
 }
 
-.relatedbutton{
+.relatedbutton {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.relatedbutton {
     border: 10px;
-    background-color:#6876CA;
-  padding-left: 10px;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 20px;
-  cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    background-color: #6876CA;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
     transition-duration: 0.4s;
 }
 
@@ -238,17 +253,17 @@ form:hover .fa{
 }
 
 
-.button{
-  border: 5px;
+.button {
+    border: 5px;
     background-color: #7481D2;
-  color:#68C9A8;
+    color: #68C9A8;
     padding: 10px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 5px 4px;
-  cursor: pointer;
-    float:inherit;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 4px;
+    cursor: pointer;
+    float: inherit;
     justify-content: center;
     transition-duration: 0.4s;
     align-items: center;

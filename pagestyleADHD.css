@@ -153,6 +153,11 @@ body {
 .show {
     display: block;
 }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /*form{
     position: relative;
     top: 5%;

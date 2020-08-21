@@ -29,6 +29,7 @@
         text-align: center;
     }
 
+
 #nav {
     display: flex;
     flex-direction: row;
@@ -69,6 +70,10 @@
             background-color: #3d3d3d;
             color: #d1d1d1;
         }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {

@@ -75,6 +75,11 @@
         font-family: Helvetica, sans-serif;
     }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
         /* Change color of dropdown links on hover */
         .dropdown-content a:hover {
             background-color: #3d3d3d;

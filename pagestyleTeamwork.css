@@ -29,6 +29,16 @@
         text-align: center;
     }
 
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #3d3d3d;
+    color: #d1d1d1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 #nav {
     display: flex;
     flex-direction: row;
