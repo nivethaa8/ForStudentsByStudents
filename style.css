@@ -205,14 +205,14 @@ body {
 	margin: 0;
 }
 
-.layer.one {
+/* .layer.one {
 	
 	background-image: url('turned-on-pendant-lamp-132340.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 
-}
+} */
 
 .heading {
 
@@ -230,7 +230,7 @@ body {
 .title {
 	
 	position: absolute;
-	top: 19%;
+	top: 17%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 65px;
@@ -243,7 +243,7 @@ body {
 .text2 {
 
 	position: absolute;
-	top: 68%;
+	top: 27%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 35px;
@@ -255,7 +255,7 @@ body {
 
 }
 
-.textbox {
+/* .textbox {
 
 	position: relative;
 	top: 80%;
@@ -271,18 +271,20 @@ body {
 	transform: translate(-60%, -60%);
 	-ms-transform: translate(-60%, -60%);
 
-  }
+  } */
 
  .text3 {
 
-	/* position: absolute; */
-	/* top: 92%; */
-	/*left: 50%;
-	transform: translate(-50%, -50%); */
+	position: absolute; 
+	top: 65%; 
+	left: 49%;
+	transform: translate(-50%, -50%);
 	font-size: 25px;
 	color: black;
 	font-weight: 800;
 	white-space: nowrap;
+	text-shadow: -1px 0 white, 0 0.4px white, 0.4px 0 white, 0 -0.4px white;
+	font-style: bold;
 
 	/* font-style: italic; */
 }
@@ -334,7 +336,7 @@ a:hover {
 .about .aboutUsButton {
 
 	position: absolute;
-	top: 8%;
+	top: 5%;
 	left: 90%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -405,11 +407,12 @@ a:hover {
 	padding: 0;
 	margin: 0;
 	text-align: center;
-
-
 }
 
-	.bullets li {
+  
+
+
+	/* .bullets li {
 		display: inline-block;
 		width: 40px;
 		height: 40px;
@@ -425,7 +428,7 @@ a:hover {
 
 		.bullets li:hover {
 			background: rgba( 255, 255, 255, 0.8 );
-		}
+		} */
 /* 
 		.bullets li.active {
 			cursor: default;
