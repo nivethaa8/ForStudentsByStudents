@@ -38,26 +38,26 @@ body{
   /* Style the counter cards */
   .card1 {
     position: absolute;
-    margin-top: 28%;
+    margin-top: 26%;
     margin-left: 110px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding:  9px;
     text-align: center;
     background-color: #f1f1f1;
-    width: 500px;
+    width: 450px;
     height: auto;
   }
 
    /* Style the counter cards */
    .card2 {
     position: absolute;
-    margin-top: 28%;
-    margin-left: 145px;
+    margin-top: 26%;
+    margin-left: 185px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding:  9px;
     text-align: center;
     background-color: #f1f1f1;
-    width: 500px;
+    width: 450px;
     height: auto;
   }
 
