@@ -1,10 +1,10 @@
 .HS {
     padding-top: 20px;
-    background: #9c76c4;
+    background: #98dde3;
     padding-bottom: 30px;
     font-family: Helvetica, sans-serif;
     font-size: 30px;
-    color: #f2b8ef;
+    color: #5e85b5;
     text-align: center;
 }
 
@@ -104,10 +104,10 @@ p{
 
 .quote {
     font-family: Helvetica, sans-serif;
-    color: #eb88b8;
+    color: #d9f4ff;
     width: 60%;
     margin: auto;
-    background-color: #7c6491;
+    background-color: #93c7f5;
     margin-bottom: 5%;
 }
 
@@ -117,11 +117,11 @@ p{
 h3 {
     font-size: 25px;
     font-family: Helvetica, sans-serif;
-    color: #7c6491;
+    color: #93c7f5;
     text-align: center;
     border-bottom-style: double;
     border-top-style: double;
-    border-color: #eb88b8;
+    border-color: #d9f4ff;
     border-width: 10px 10px;
     width: 40%;
     margin: auto;
@@ -218,17 +218,12 @@ form:hover .fa{
 
 .relatedbutton {
     border: 5px;
-    background-color: #f2b8ef;
-    color: #9c76c4;
+    background-color: #5e85b5;
+    color: #98dde3;
     text-decoration: none;
     font-size: 22px;
     margin: 5px 4px;
 }
-
-    .relatedbutton:hover {
-        background-color: #9c76c4;
-        color: #f2b8ef;
-    }
 
 .related {
     display: flex;
@@ -236,12 +231,12 @@ form:hover .fa{
     flex-wrap: wrap;
     flex-direction: row;
 }
-}
 
-    .relatedbutton:hover {
-        background-color: #90D0DC;
-        color: #358998;
-    }
+
+.relatedbutton:hover {
+    background-color: #98dde3;
+    color: #5e85b5;
+}
 
 .related {
     display: flex;
@@ -254,8 +249,8 @@ form:hover .fa{
 
 .button {
     border: 5px;
-    background-color: #f2b8ef;
-    color: #9c76c4;
+    background-color: #5e85b5;
+    color: #98dde3;
     padding: 10px;
     text-decoration: none;
     display: inline-block;
@@ -270,8 +265,8 @@ form:hover .fa{
 }
 
     .button:hover {
-        background-color: #9c76c4;
-        color: #f2b8ef;
+        background-color: #98dde3;
+        color: #5e85b5;
     }
 
 img{

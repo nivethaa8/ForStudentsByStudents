@@ -68,15 +68,17 @@ h3{
     text-align: center;
 }
 
-.relatedbutton{
-    border: 10px;
-    background-color:#6876CA;
-  padding-left: 10px;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 20px;
-  cursor: pointer;
-    transition-duration: 0.4s;
+.relatedbutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 /*Top Buttons*/
@@ -254,7 +256,7 @@ form:hover .fa{
 }
 
 
-.button{
+.homebutton{
   border: 5px;
     background-color: #358998;
   color:#90D0DC;
@@ -271,7 +273,7 @@ form:hover .fa{
     justify-content: center;
 }
 
-.button:hover {
+.homebutton:hover {
   background-color: #90D0DC ; 
   color: #358998;
 }

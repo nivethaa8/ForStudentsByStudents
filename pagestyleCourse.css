@@ -1,12 +1,11 @@
-.HS{
+.HS {
     padding-top: 20px;
-    background: #EBE9C2;
+    background: #bfd8ff;
     padding-bottom: 30px;
     font-family: Helvetica, sans-serif;
     font-size: 30px;
-    color: #B0AA3F;
+    color: #8d96ba;
     text-align: center;
-
 }
 
 
@@ -93,10 +92,10 @@
 
 /*Text*/
 
-h1{
-    color: #B0AA3F;
+h1 {
+    color: #8d96ba;
     margin-left: 5%;
-        font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 p{
@@ -108,29 +107,29 @@ p{
     font-size: 18.5px;
 }
 
-.quote{
+.quote {
     font-family: Helvetica, sans-serif;
-    color:#E3E1AB;
-    width:60%;
-    margin:auto;
-background-color: #B0AA3F;
+    color: #a2c4e8;
+    width: 60%;
+    margin: auto;
+    background-color: #6779bf;
     margin-bottom: 5%;
 }
 
 
 /*Related*/
 
-h3{
+h3 {
     font-size: 25px;
     font-family: Helvetica, sans-serif;
-    color:#DFDD9F;
+    color: #6779bf;
     text-align: center;
-    border-bottom-style:double;
+    border-bottom-style: double;
     border-top-style: double;
-    border-color: #C1BB4E;
+    border-color: #a2c4e8;
     border-width: 10px 10px;
     width: 40%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 20px;
 }
 
@@ -222,20 +221,20 @@ form:hover .fa{
     text-align: center;
 }
 
-.relatedbutton{
+.relatedbutton {
     border-style: dotted;
     border: 5px;
-    background-color:#B0AA3F;
-  color:#EBE9C2;
-  text-decoration: none;
-      font-size: 22px;
-      margin: 5px 4px;
+    background-color: #8d96ba;
+    color: #bfd8ff;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 5px 4px;
 }
 
-.relatedbutton:hover {
-  background-color:#EBE9C2;
-  color:#B0AA3F;
-}
+    .relatedbutton:hover {
+        background-color: #bfd8ff;
+        color: #8d96ba;
+    }
 
 .related{
     display: flex;
@@ -245,27 +244,27 @@ form:hover .fa{
 }
 
 
-.button{
-  border: 5px;
-    background-color:#B0AA3F;
-  color:#EBE9C2;
+.button {
+    border: 5px;
+    background-color: #8d96ba;
+    color: #bfd8ff;
     padding: 10px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 5px 4px;
-  cursor: pointer;
-    float:inherit;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 4px;
+    cursor: pointer;
+    float: inherit;
     justify-content: center;
     transition-duration: 0.4s;
     align-items: center;
     justify-content: center;
 }
 
-.button:hover {
-  background-color: #EBE9C2; 
-  color:#B0AA3F;
-}
+    .button:hover {
+        background-color: #bfd8ff;
+        color: #8d96ba;
+    }
 
 img{
     float:right;

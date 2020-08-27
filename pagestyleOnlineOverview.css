@@ -1,22 +1,11 @@
 .HS {
     padding-top: 20px;
-    background: #9c76c4;
+    background: #5045ba;
     padding-bottom: 30px;
     font-family: Helvetica, sans-serif;
     font-size: 30px;
-    color: #f2b8ef;
+    color: #7bc4e3;
     text-align: center;
-}
-
-
-.title{
-    margin-top: 100px;
-   text-align: left;
-    font-family: Helvetica, sans-serif;
-}
-
-.header{
-   outline: #6192CA;
 }
 
 /*Dropdown Menu*/
@@ -85,12 +74,23 @@
 }
 
 
+.title{
+    margin-top: 100px;
+   text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+.header{
+   outline: #6192CA;
+}
+
+
 /*Text*/
 
-h1{
-    color: #4D4D4D;
+h1 {
+    color: #5199b5;
     margin-left: 5%;
-        font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 p{
@@ -104,10 +104,10 @@ p{
 
 .quote {
     font-family: Helvetica, sans-serif;
-    color: #eb88b8;
+    color: #645cad;
     width: 60%;
     margin: auto;
-    background-color: #7c6491;
+    background-color: #91d3ed;
     margin-bottom: 5%;
 }
 
@@ -117,11 +117,11 @@ p{
 h3 {
     font-size: 25px;
     font-family: Helvetica, sans-serif;
-    color: #7c6491;
+    color: #91d3ed;
     text-align: center;
     border-bottom-style: double;
     border-top-style: double;
-    border-color: #eb88b8;
+    border-color: #645cad;
     border-width: 10px 10px;
     width: 40%;
     margin: auto;
@@ -217,45 +217,32 @@ form:hover .fa{
 }
 
 .relatedbutton {
+    border-style: dotted;
     border: 5px;
-    background-color: #f2b8ef;
-    color: #9c76c4;
+    background-color: #7bc4e3;
+    color: #5045ba;
     text-decoration: none;
     font-size: 22px;
     margin: 5px 4px;
 }
 
     .relatedbutton:hover {
-        background-color: #9c76c4;
-        color: #f2b8ef;
+        background-color: #5045ba;
+        color: #7bc4e3;
     }
 
-.related {
+.related{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-}
-}
-
-    .relatedbutton:hover {
-        background-color: #90D0DC;
-        color: #358998;
-    }
-
-.related {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: center;
+    flex-direction: row; 
 }
 
 
 .button {
     border: 5px;
-    background-color: #f2b8ef;
-    color: #9c76c4;
+    background-color: #7bc4e3;
+    color: #5045ba;
     padding: 10px;
     text-decoration: none;
     display: inline-block;
@@ -270,8 +257,8 @@ form:hover .fa{
 }
 
     .button:hover {
-        background-color: #9c76c4;
-        color: #f2b8ef;
+        background-color: #5045ba;
+        color: #7bc4e3;
     }
 
 img{
